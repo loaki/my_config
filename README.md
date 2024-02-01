@@ -1,5 +1,6 @@
 # terminator
 
+themes
 https://github.com/EliverLara/terminator-themes
 
 
@@ -18,3 +19,10 @@ This gives you autocomplete suggestions based on your command history (commands 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions  
 
 Add zsh-autosuggestions to your list of plugins in ~/.zshrc
+
+fzf
+This is a command-line fuzzy finder that can be used with your recently used commands, files, etc.
+
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+
+Make sure to answer "Y" to all of the questions in the interactive prompt

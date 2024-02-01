@@ -121,3 +121,5 @@ bindkey '\e[B' history-search-forward
 
 # never beep
 setopt NO_BEEP
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

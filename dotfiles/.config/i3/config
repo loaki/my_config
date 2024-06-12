@@ -169,11 +169,40 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# color defines for zenburn styled i3
+set $bg     #2c2c2e
+set $fg     #9f9f9f
+set $hi     #efef8f
+set $ac     #a0afa0
+set $tx     #040404
+set $ia     #8f8f8f
+set $be     #8faf9f
+set $yw     #ccdc90
+set $gn     #88b090
+set $rd     #e89393
+
+# set some nice colors      border     background  text
+client.focused              $ac        $ac         $tx
+client.unfocused            $bg        $bg         $ia
+client.focused_inactive     $bg        $bg         $ac
+client.urgent               $rd        $rd         $tx
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
         tray_output primary
         status_command i3status
+
+        colors {
+            background          $bg
+            statusline          $fg
+            separator           $fg
+            focused_workspace   $gn        $bg        $ac
+            active_workspace    $gn        $ac        $tx
+            inactive_workspace  $bg        $bg        $ia
+            urgent_workspace    $rd        $bg        $ac
+    }
+
 }
 
 # keybinding to lock screen

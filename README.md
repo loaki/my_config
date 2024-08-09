@@ -3,6 +3,9 @@
 themes  
 https://github.com/EliverLara/terminator-themes  
 
+# kitty
+
+https://github.com/ttys3/my-kitty-config
 
 # zsh  
 

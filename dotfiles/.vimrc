@@ -54,3 +54,9 @@ set termguicolors
 set noshowmode
 
 set shortmess=I
+
+" vim hardcodes background color erase even if the terminfo file does
+" not contain bce. This causes incorrect background rendering when
+" using a color theme with a background color in terminals such as
+" kitty that do not support background color erase.
+let &t_ut=''

@@ -104,7 +104,7 @@ if command -v bat > /dev/null; then
 elif command -v batcat > /dev/null; then
   alias cat="batcat"
 fi
-if command -v z > /dev/null; then
+if command -v zoxide > /dev/null; then
   alias cd="z"
 fi
 #

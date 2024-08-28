@@ -99,6 +99,14 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+if command -v bat > /dev/null; then
+  alias cat="bat"
+elif command -v batcat > /dev/null; then
+  alias cat="batcat"
+fi
+if command -v z > /dev/null; then
+  alias cd="z"
+fi
 #
 # AUTOCOMPLETION
 
@@ -123,3 +131,4 @@ bindkey '\e[B' history-search-forward
 setopt NO_BEEP
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(zoxide init zsh)"

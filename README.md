@@ -23,3 +23,10 @@ Add zsh-autosuggestions to your list of plugins in ~/.zshrc
 This is a command-line fuzzy finder that can be used with your recently used commands, files, etc.  
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install  
 Make sure to answer "Y" to all of the questions in the interactive prompt
+
+### batcat
+https://github.com/sharkdp/bat
+
+### zoxide
+https://github.com/ajeetdsouza/zoxide
+curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh

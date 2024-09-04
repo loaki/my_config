@@ -15,6 +15,9 @@ font pango:monospace 8
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
+# autotiling
+exec_always --no-startup-id autotiling --limit 2
+
 # keyboard layout
 exec --no-startup-id setxkbmap us
 

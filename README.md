@@ -28,7 +28,7 @@ Make sure to answer "Y" to all of the questions in the interactive prompt
 https://github.com/sharkdp/bat
 
 ### zoxide
-https://github.com/ajeetdsouza/zoxide
+https://github.com/ajeetdsouza/zoxide  
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
 ### autotiling

@@ -22,15 +22,15 @@ font pango:monospace 8
 exec_always --no-startup-id autotiling --limit 2
 
 # keyboard layout
-exec --no-startup-id setxkbmap us
+exec_always --no-startup-id setxkbmap us
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- sh $lock
+exec_always --no-startup-id xss-lock --transfer-sleep-lock -- $lock
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+exec_always --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -215,4 +215,4 @@ bar {
 }
 
 # keybinding to lock screen
-bindsym Control+$mod+l exec sh $lock
+bindsym Control+$mod+l exec --no-startup-id $lock

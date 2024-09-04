@@ -29,7 +29,6 @@ i3lock \
     --layout-color=$ac \
     --date-color=$ac \
     --time-color=$ac \
-    --screen 1 \
     --blur 1 \
     --clock \
     --indicator \
@@ -45,5 +44,6 @@ i3lock \
     --pass-media-keys \
     --pass-screen-keys \
     --pass-volume-keys \
-    --keylayout 1 \
-
+    --keylayout=1 \
+    --nofork \
+    --pointer=default

@@ -3,6 +3,7 @@
 sudo apt-update && sudo apt-upgrade -y
 
 sudo apt install curl -y
+sudo apt install vim -y
 sudo apt install i3 -y
 sudo apt install rofi -y
 sudo apt install kitty -y
@@ -14,14 +15,16 @@ sudo apt install pip -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install 
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf; ~/.fzf/install
+sudo mv ~/.fzf/bin/fzf /usr/local/bin/
 sudo mv ~/.local/bin/zoxide /usr/local/bin/
 chmod +x ~/boot/dotfiles/.scripts/autotiling
 sudo mv ~/boot/dotfiles/.scripts/autotiling /usr/local/bin/
+chmod +x ~/boot/dotfiles/.scripts/lock.sh
 
-rm ~/.zshrc
-rm ~/.vimrc
+sudo mv ~/.zshrc ~/.zshrc.bak
+sudo mv ~/.vimrc ~/.vimrc.bak
 ln -s ~/boot/dotfiles/.zshrc ~/.zshrc
 ln -s ~/boot/dotfiles/.vimrc ~/.vimrc
 

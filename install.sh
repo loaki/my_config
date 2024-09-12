@@ -5,9 +5,10 @@ sudo apt-update && sudo apt-upgrade -y
 sudo apt install curl -y
 sudo apt install vim -y
 sudo apt install i3 -y
-sudo apt install rofi -y
 sudo apt install kitty -y
 sudo apt install zsh -y
+sudo apt install rofi -y
+sudo apt install pulseaudio -y
 sudo apt install python3 -y
 sudo apt install python3-i3ipc -y
 sudo apt install python3-venv -y

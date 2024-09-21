@@ -1,3 +1,12 @@
+# brave
+
+extensions:
+dpacanjfikmhoddligfbehkpomnbgblf
+eimadpbcbfnmbkopoojfekhnkhdbieeh
+nebbehiamgpclkolmehcolhnfkkagdmp
+nidimbejmadpggdgooppinedbggeacla
+cofdbpoegempjloogbagkncekinflcnj
+
 # terminator  
 
 themes  

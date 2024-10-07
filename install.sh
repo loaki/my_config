@@ -22,7 +22,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf; ~/.fzf/install
 sudo mv ~/.fzf/bin/fzf /usr/bin/
 sudo mv ~/.local/bin/zoxide /usr/bin/
 chmod +x ~/boot/dotfiles/.scripts/autotiling
-sudo mv ~/boot/dotfiles/.scripts/autotiling /usr/bin/
+sudo cp ~/boot/dotfiles/.scripts/autotiling /usr/bin/
 chmod +x ~/boot/dotfiles/.scripts/lock.sh
 
 sudo mv ~/.zshrc ~/.zshrc.bak

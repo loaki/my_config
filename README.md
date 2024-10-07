@@ -12,6 +12,9 @@ cofdbpoegempjloogbagkncekinflcnj
 themes  
 https://github.com/EliverLara/terminator-themes  
 
+# i3lock color
+https://github.com/Raymo111/i3lock-color
+
 # kitty
 
 https://github.com/ttys3/my-kitty-config

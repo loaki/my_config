@@ -215,4 +215,7 @@ bar {
 }
 
 # keybinding to lock screen
-bindsym Control+$mod+l exec --no-startup-id $lock
+bindsym $mod+Control+l exec --no-startup-id $lock
+
+# screenshot
+bindsym $mod+Control+p exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"

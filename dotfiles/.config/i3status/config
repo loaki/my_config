@@ -78,7 +78,7 @@ battery 0 {
 cpu_temperature 0 {
         format = "  %degrees °C "
         max_threshold = 60
-        path = "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input"
+        path = "/sys/devices/platform/coretemp.0/hwmon/hwmon7/temp1_input"
 }
 
 cpu_usage {

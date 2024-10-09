@@ -219,3 +219,6 @@ bindsym $mod+Control+l exec --no-startup-id $lock
 
 # screenshot
 bindsym $mod+Control+p exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
+
+# compositor for zoom screensharing
+exec --no-startup-id picom --daemon --config /dev/null

@@ -12,6 +12,7 @@ sudo apt install pavucontrol -y
 sudo apt install pulseaudio -y
 sudo apt install picom -y
 sudo apt install maim -y
+sudo apt install note -y
 sudo apt install python3 -y
 sudo apt install python3-i3ipc -y
 sudo apt install python3-venv -y

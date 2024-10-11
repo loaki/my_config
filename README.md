@@ -6,13 +6,10 @@ eimadpbcbfnmbkopoojfekhnkhdbieeh
 nebbehiamgpclkolmehcolhnfkkagdmp
 nidimbejmadpggdgooppinedbggeacla
 cofdbpoegempjloogbagkncekinflcnj
-
-# terminator  
-
-themes  
-https://github.com/EliverLara/terminator-themes  
+oboonakemofpalcgghocfoadofidjkkk
 
 # i3lock color
+
 https://github.com/Raymo111/i3lock-color
 
 # kitty
@@ -32,12 +29,17 @@ Add zsh-autosuggestions to your list of plugins in ~/.zshrc
 ### fzf  
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install  
 
-### batcat
-https://github.com/sharkdp/bat
-
 ### zoxide
 https://github.com/ajeetdsouza/zoxide  
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
 ### autotiling
 https://github.com/nwg-piotr/autotiling
+
+# random links
+
+docker sudo grp
+https://docs.docker.com/engine/install/linux-postinstall/
+
+tap to click i3
+https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/

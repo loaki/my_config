@@ -8,10 +8,13 @@ sudo apt install i3 -y
 sudo apt install kitty -y
 sudo apt install zsh -y
 sudo apt install rofi -y
+sudo apt install bat -y
+sudo apt install htop -y
 sudo apt install pavucontrol -y
 sudo apt install pulseaudio -y
 sudo apt install picom -y
 sudo apt install maim -y
+sudo apt install libyaml-perl -y
 sudo apt install note -y
 sudo apt install python3 -y
 sudo apt install python3-i3ipc -y
@@ -28,13 +31,12 @@ chmod +x ~/boot/dotfiles/.scripts/autotiling
 sudo cp ~/boot/dotfiles/.scripts/autotiling /usr/bin/
 chmod +x ~/boot/dotfiles/.scripts/lock.sh
 
-sudo mv ~/.zshrc ~/.zshrc.bak
-sudo mv ~/.vimrc ~/.vimrc.bak
-ln -s ~/boot/dotfiles/.zshrc ~/.zshrc
-ln -s ~/boot/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/boot/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/boot/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/boot/dotfiles/.noterc ~/.noterc
 
 mkdir ~/.scripts
-ln -s ~/boot/dotfiles/.scripts/* ~/.scripts/
+ln -sf ~/boot/dotfiles/.scripts/* ~/.scripts/
 
 mkdir ~/.config
-ln -s ~/boot/dotfiles/.config/* ~/.config/
+ln -sf ~/boot/dotfiles/.config/* ~/.config/

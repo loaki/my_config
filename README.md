@@ -1,12 +1,12 @@
 # brave
 
 extensions:
-dpacanjfikmhoddligfbehkpomnbgblf
-eimadpbcbfnmbkopoojfekhnkhdbieeh
-nebbehiamgpclkolmehcolhnfkkagdmp
-nidimbejmadpggdgooppinedbggeacla
-cofdbpoegempjloogbagkncekinflcnj
-oboonakemofpalcgghocfoadofidjkkk
+dpacanjfikmhoddligfbehkpomnbgblf  
+eimadpbcbfnmbkopoojfekhnkhdbieeh  
+nebbehiamgpclkolmehcolhnfkkagdmp  
+nidimbejmadpggdgooppinedbggeacla  
+cofdbpoegempjloogbagkncekinflcnj  
+oboonakemofpalcgghocfoadofidjkkk  
 
 # i3lock color
 

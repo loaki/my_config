@@ -1,6 +1,6 @@
 # brave
 
-extensions:
+extensions:  
 dpacanjfikmhoddligfbehkpomnbgblf  
 eimadpbcbfnmbkopoojfekhnkhdbieeh  
 nebbehiamgpclkolmehcolhnfkkagdmp  

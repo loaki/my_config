@@ -56,7 +56,7 @@ print_status "zoxide moved to /usr/bin"
 
 # Set up scripts
 sudo cp dotfiles/.scripts/autotiling /usr/bin/ > /dev/null
-chmod +x /usr/bin/autotiling
+sudo chmod +x /usr/bin/autotiling
 print_status "autotiling script copied"
 
 chmod +x dotfiles/.scripts/lock.sh > /dev/null

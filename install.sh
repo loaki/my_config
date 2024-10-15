@@ -13,7 +13,7 @@ sudo apt-get update > /dev/null && sudo apt-get upgrade -y > /dev/null
 print_status "System updated and upgraded"
 
 # Install packages
-packages="curl vim i3 kitty zsh rofi bat htop pavucontrol pulseaudio picom maim libyaml-perl note python3 python3-i3ipc python3-venv python3-pip"
+packages="curl vim i3 kitty zsh rofi bat htop pavucontrol pulseaudio picom maim libyaml-perl note python3 python3-i3ipc python3-venv python3-pip autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev"
 
 for package in $packages; do
     sudo apt-get install "$package" -y > /dev/null
@@ -49,18 +49,16 @@ print_status "fzf installed"
 
 # Move binaries to /usr/bin
 sudo mv ~/.fzf/bin/fzf /usr/bin/ > /dev/null
-print_status "fzf moved to /usr/bin"
+print_status "fzf mv to /usr/bin"
 
 sudo mv ~/.local/bin/zoxide /usr/bin/ > /dev/null
-print_status "zoxide moved to /usr/bin"
+print_status "zoxide mv to /usr/bin"
 
-# Set up scripts
 sudo cp dotfiles/.scripts/autotiling /usr/bin/ > /dev/null
-sudo chmod +x /usr/bin/autotiling
-print_status "autotiling script copied"
+print_status "autotiling cp to /usr/bin"
 
-chmod +x dotfiles/.scripts/lock.sh > /dev/null
-print_status "lock script set up"
+sudo cp dotfiles/.scripts/i3lock /usr/bin/ > /dev/null
+print_status "i3lock cp to /usr/bin"
 
 # Symlink dotfiles
 DIR="dotfiles"

@@ -55,11 +55,11 @@ sudo mv ~/.local/bin/zoxide /usr/bin/ > /dev/null
 print_status "zoxide moved to /usr/bin"
 
 # Set up scripts
-sudo cp ~/boot/dotfiles/.scripts/autotiling /usr/bin/ > /dev/null
+sudo cp dotfiles/.scripts/autotiling /usr/bin/ > /dev/null
 chmod +x /usr/bin/autotiling
 print_status "autotiling script copied"
 
-chmod +x ~/boot/dotfiles/.scripts/lock.sh > /dev/null
+chmod +x dotfiles/.scripts/lock.sh > /dev/null
 print_status "lock script set up"
 
 # Symlink dotfiles

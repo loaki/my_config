@@ -1,5 +1,5 @@
 # docker ps
-docker ps --format "{{.ID}}: {{.Names}}: ({{.Status}})" | column -t -s ':'
+watch -n 60 'docker ps --format "{{.ID}}: {{.Names}}: ({{.Status}})" | column -t -s ":"'
 
 # xrandr
 xrandr --output eDP-1 --primary --output HDMI-1 --above eDP-1

@@ -228,3 +228,7 @@ bindsym $mod+Control+Left move workspace to output left
 bindsym $mod+Control+Down move workspace to output down
 bindsym $mod+Control+Up move workspace to output up
 bindsym $mod+Control+Right move workspace to output right
+
+# brightness control
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -q set 5%-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -q set +5%

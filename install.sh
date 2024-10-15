@@ -60,6 +60,9 @@ print_status "autotiling cp to /usr/bin"
 sudo cp dotfiles/.scripts/i3lock /usr/bin/ > /dev/null
 print_status "i3lock cp to /usr/bin"
 
+# Set brightness permissions
+sudo usermod -aG video $USER
+
 # Symlink dotfiles
 DIR="dotfiles"
 

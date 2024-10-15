@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python="python3"
+alias dc="docker compose"
 if command -v bat > /dev/null; then
   alias cat="bat"
 elif command -v batcat > /dev/null; then

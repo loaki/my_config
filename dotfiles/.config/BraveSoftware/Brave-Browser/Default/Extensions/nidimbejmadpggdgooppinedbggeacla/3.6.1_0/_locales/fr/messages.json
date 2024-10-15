@@ -1,0 +1,151 @@
+{
+   "backfire_risk": {
+      "description": "Nom complet du critère 'résistant'.",
+      "message": "Résistant aux retours négatifs"
+   },
+   "better_habits": {
+      "description": "Nom complet du critère 'meilleures habitudes'.",
+      "message": "Encourage de meilleurs habitudes"
+   },
+   "campaignIconAlt": {
+      "description": "Texte alternatif à l'icône de mégaphone affichée en cas de bannière générique",
+      "message": "Icône de mégaphone"
+   },
+   "closeIconAlt": {
+      "description": "Texte alternatif à l'icône de fermeture de la bannière",
+      "message": "Icône de fermeture"
+   },
+   "comparisonsBy": {
+      "description": "Nombre de comparaisons impliquant la vidéo.",
+      "message": " $1 comparaisons par"
+   },
+   "comparisonsContributors": {
+      "description": "Nombre de contributeur·rices ayant notés la vidéo.",
+      "message": " $1 contributeur·rices"
+   },
+   "diversity_inclusion": {
+      "description": "Nom complet du critère 'diversité'.",
+      "message": "Diversité & inclusion"
+   },
+   "engaging": {
+      "description": "Nom complet du critère 'stimulant'.",
+      "message": "Stimulant & suscite la réflexion"
+   },
+   "entertaining_relaxing": {
+      "description": "Nom complet du critère 'divertissant'.",
+      "message": "Divertissant & relaxant"
+   },
+   "importance": {
+      "description": "Nom complet du critère 'importance'.",
+      "message": "Important & actionnable"
+   },
+   "layman_friendly": {
+      "description": "Nom complet du critère 'accessible'.",
+      "message": "Accessible aux non-spécialistes"
+   },
+   "learnMore": {
+      "description": "Inviter les utilisateurs à en savoir plus sur le projet (texte très court).",
+      "message": "En savoir plus"
+   },
+   "menuAnalysis": {
+      "description": "Label du bouton de menu permettant d'accéder à la page d'analyse d'une vidéo.",
+      "message": "Analyses"
+   },
+   "menuPreferences": {
+      "message": "Préférences"
+   },
+   "menuRateLater": {
+      "description": "Label du bouton de menu permettant d'ajouter la vidéo à la liste à comparer plus tard.",
+      "message": "Comparer plus tard"
+   },
+   "menuRateNow": {
+      "description": "Label du bouton de menu permettant de comparer la vidéo.",
+      "message": "Comparer"
+   },
+   "pedagogy": {
+      "description": "Nom complet du critère 'pédagogie'.",
+      "message": "Clair & pédagogique"
+   },
+   "publishedAMonthAgo": {
+      "description": "Date affichée pour les vidéos publiées il y a un mois.",
+      "message": "Il y a 1 mois"
+   },
+   "publishedAYearAgo": {
+      "description": "Date affichée pour les vidéos publiées il y a un an.",
+      "message": "Il y a 1 an"
+   },
+   "publishedSomeDaysAgo": {
+      "description": "Date affichée pour les vidéos publiées il y a moins de deux semaines.",
+      "message": "Il y a $1 jours"
+   },
+   "publishedSomeMonthsAgo": {
+      "description": "Date affichée pour les vidéos publiées entre: il y a deux mois et un an.",
+      "message": "Il y a $1 mois"
+   },
+   "publishedSomeWeeksAgo": {
+      "description": "Date affichée pour les vidéos publiées entre: il y a deux semaines et un mois.",
+      "message": "Il y a $1 semaines"
+   },
+   "publishedSomeYearsAgo": {
+      "description": "Date affichée pour les vidéos publiées il a plus d'un an.",
+      "message": "Il y a $1 ans"
+   },
+   "publishedToday": {
+      "description": "Date affichée pour les vidéos publiées aujourd'hui.",
+      "message": "Aujourd'hui"
+   },
+   "publishedYesterday": {
+      "description": "Date affichée pour les vidéos publiées hier.",
+      "message": "Hier"
+   },
+   "rateLaterButtonLabel": {
+      "description": "Label du bouton affiché sur les pages de vidéo.",
+      "message": "Plus Tard"
+   },
+   "rateLaterButtonSuccessLabel": {
+      "description": "Ça remplace le texte du bouton Plus Tard après un ajout réussi.",
+      "message": "Ajoutée !"
+   },
+   "rateNowButtonLabel": {
+      "description": "Label du bouton affiché sur les pages de vidéo.",
+      "message": "Comparer"
+   },
+   "ratedHigh": {
+      "description": "Label du critère ayant le plus haut score positif.",
+      "message": "Notée fortement :"
+   },
+   "ratedLow": {
+      "description": "Label du critère ayant le plus faible score négatif.",
+      "message": "Notée faiblement :"
+   },
+   "recommendedByTournesol": {
+      "description": "Titre du conteneur principal affichant les recommandations.",
+      "message": "Recommandées par Tournesol"
+   },
+   "refreshRecommendations": {
+      "message": "Rafraîchir"
+   },
+   "reliability": {
+      "description": "Nom complet du critère 'fiable'.",
+      "message": "Fiable & non trompeur"
+   },
+   "securityIconAlt": {
+      "description": "Texte alternatif à l'icône affichée en cas de bannière d'alerte de sécurité",
+      "message": "Icône d'alerte"
+   },
+   "seeMoreRecommendations": {
+      "message": "Voir plus de vidéos"
+   },
+   "viewMore": {
+      "Description": "Inviter les utilisateur·rices à voir plus de résultats sur le site web de Tournesol.",
+      "message": "Voir plus sur tournesol"
+   },
+   "views": {
+      "description": "Affiche le nombre de vues d'une vidéo.",
+      "message": "$1 vues"
+   },
+   "watchOnTournesolButtonLabel": {
+      "description": "Label du bouton affiché sur les pages de vidéo.",
+      "message": "Regarder sur Tournesol"
+   }
+}

@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/popup/popup.html",
+      "default_title": "Sound Adjustment"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+      }
+   },
+   "description": "Easily adjust various sound settings (volume, balance, etc.) via toolbar popup.",
+   "differential_fingerprint": "1.b684b59f3714634c4652e8f83d1e5b7049e05891ea15c40631708ffdecf1df82",
+   "homepage_url": "https://mybrowseraddon.com/sound-adjustment.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjqeVt2RRSvsk5878dBF6XE0ox7NfbIeEkGFv0nVQbrS/Sp/R0JuT+c2cXthVpLCen9ggl7YH5MwS9ROeu6ncwGwUIGhSg/XacN+kNuoORzu39ZHHIMrrgsfVJz0PzXEa+jifBjCr2oRiVYZn0T4EHJG63KGqCkOpHTWoK+vq4G+9cqVMI+lAscHrUBkHXmNZiOee6qJvHCXrcqeuoQPyrN+MhcvCsuzOk8B9Vv5z9Lti56fWY41hJsUtDC8e/neDfcWLprAmIZTMypkmiU0aXbCwVwrWCvdaZqW4kjW1gvbZP5UZPRhLK6ByFiCvZUDC4AyFSYerOedfIFi/3ty5GwIDAQAB",
+   "manifest_version": 3,
+   "name": "Sound Adjustment",
+   "offline_enabled": true,
+   "optional_host_permissions": [ "*://*/*" ],
+   "permissions": [ "storage", "activeTab", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}

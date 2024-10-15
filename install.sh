@@ -20,6 +20,13 @@ for package in $packages; do
     print_status "Installed $package"
 done
 
+# Install Brave-Browser
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt update
+sudo apt install brave-browser
+print_status "Brave-Browser installed"
+
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
 print_status "Oh My Zsh installed"
@@ -48,17 +55,12 @@ sudo mv ~/.local/bin/zoxide /usr/bin/ > /dev/null
 print_status "zoxide moved to /usr/bin"
 
 # Set up scripts
-chmod +x ~/boot/dotfiles/.scripts/autotiling
 sudo cp ~/boot/dotfiles/.scripts/autotiling /usr/bin/ > /dev/null
+chmod +x /usr/bin/autotiling
 print_status "autotiling script copied"
 
 chmod +x ~/boot/dotfiles/.scripts/lock.sh > /dev/null
 print_status "lock script set up"
-
-# Create directories
-mkdir -p ~/.scripts > /dev/null
-mkdir -p ~/.config > /dev/null
-print_status "Created directories"
 
 # Symlink dotfiles
 DIR="dotfiles"

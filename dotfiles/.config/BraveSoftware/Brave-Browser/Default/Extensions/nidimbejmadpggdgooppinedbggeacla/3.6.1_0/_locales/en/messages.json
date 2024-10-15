@@ -1,0 +1,153 @@
+{
+   "backfire_risk": {
+      "description": "Full name of the criterion 'backfire risk'.",
+      "message": "Resilience to backfiring risks"
+   },
+   "better_habits": {
+      "description": "Full name of the criterion 'better habits'.",
+      "message": "Encourages better habits"
+   },
+   "campaignIconAlt": {
+      "description": "Alt text of the megaphone icon displayed when there's a generic banner",
+      "message": "Megaphone icon"
+   },
+   "closeIconAlt": {
+      "description": "Alt text of the close icon displayed when there's a banner",
+      "message": "Close icon"
+   },
+   "comparisonsBy": {
+      "description": "Number of comparisons involving the video.",
+      "message": " $1 comparisons by"
+   },
+   "comparisonsContributors": {
+      "description": "Number of contributors that rated the video.",
+      "message": " $1 contributors"
+   },
+   "diversity_inclusion": {
+      "description": "Full name of the criterion 'diversity'.",
+      "message": "Diversity & inclusion"
+   },
+   "engaging": {
+      "description": "Full name of the criterion 'engaging'.",
+      "message": "Engaging & thought-provoking"
+   },
+   "entertaining_relaxing": {
+      "description": "Full name of the criterion 'entertaining'.",
+      "message": "Entertaining & relaxing"
+   },
+   "importance": {
+      "description": "Full name of the criterion 'importance'.",
+      "message": "Important & actionable"
+   },
+   "layman_friendly": {
+      "description": "Full name of the criterion 'layman friendly'.",
+      "message": "Layman-friendly"
+   },
+   "learnMore": {
+      "description": "Invite the users to learn more about the project (should be very short).",
+      "message": "Learn more"
+   },
+   "menuAnalysis": {
+      "description": "Label of the analysis menu button.",
+      "message": "Analysis"
+   },
+   "menuPreferences": {
+      "message": "Preferences"
+   },
+   "menuRateLater": {
+      "description": "Label of the rate-later menu button.",
+      "message": "Rate later"
+   },
+   "menuRateNow": {
+      "description": "Label of the rate now menu button.",
+      "message": "Rate now"
+   },
+   "pedagogy": {
+      "description": "Full name of the criterion 'pedagogy'.",
+      "message": "Clear & pedagogical"
+   },
+   "publishedAMonthAgo": {
+      "description": "Date displayed for videos published one month ago.",
+      "message": "1 month ago"
+   },
+   "publishedAYearAgo": {
+      "description": "Date displayed for videos published one year ago.",
+      "message": "1 year ago"
+   },
+   "publishedSomeDaysAgo": {
+      "description": "Date displayed for videos published less than two weeks ago.",
+      "message": "$1 days ago"
+   },
+   "publishedSomeMonthsAgo": {
+      "description": "Date displayed for videos published between two month ago and one year ago.",
+      "message": "$1 months ago"
+   },
+   "publishedSomeWeeksAgo": {
+      "description": "Date displayed for videos published between two weeks ago and one month ago.",
+      "message": "$1 weeks ago"
+   },
+   "publishedSomeYearsAgo": {
+      "description": "Date displayed for videos published more than one year ago.",
+      "message": "$1 years ago"
+   },
+   "publishedToday": {
+      "description": "Date displayed for vides published today.",
+      "message": "Today"
+   },
+   "publishedYesterday": {
+      "description": "Date displayed for video published yesterday.",
+      "message": "Yesterday"
+   },
+   "rateLaterButtonLabel": {
+      "description": "Label of the button displayed on video pages.",
+      "message": "Rate Later"
+   },
+   "rateLaterButtonSuccessLabel": {
+      "description": "It replaces the Rate Later button label after a successful add.",
+      "message": "Added!"
+   },
+   "rateNowButtonLabel": {
+      "description": "Label of the button displayed on video pages.",
+      "message": "Rate Now"
+   },
+   "ratedHigh": {
+      "description": "Label of the criterion with the highest positive score.",
+      "message": "Rated high:"
+   },
+   "ratedLow": {
+      "description": "Label of the criterion with the lowest negative score.",
+      "message": "Rated low:"
+   },
+   "recommendedByTournesol": {
+      "description": "Title of the main Tournesol container.",
+      "message": "Recommended by Tournesol"
+   },
+   "refreshRecommendations": {
+      "description": "Button title to refresh the Tournesol container content with other videos.",
+      "message": "Refresh"
+   },
+   "reliability": {
+      "description": "Full name of the criterion 'reliable'.",
+      "message": "Reliable & not misleading"
+   },
+   "securityIconAlt": {
+      "description": "Alt text of the icon displayed when there's a security advisory banner",
+      "message": "Alert icon"
+   },
+   "seeMoreRecommendations": {
+      "description": "Button title to expand the Tournesol container to show more recommended videos.",
+      "message": "See more videos"
+   },
+   "viewMore": {
+      "Description": "Invite the users to see more results on the Tournesol website.",
+      "message": "View more on tournesol"
+   },
+   "views": {
+      "description": "Display the number of views of a video.",
+      "message": "$1 views"
+   },
+   "watchOnTournesolButtonLabel": {
+      "description": "Label of the button displayed on video pages.",
+      "message": "Watch on Tournesol"
+   }
+}

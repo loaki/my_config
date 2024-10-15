@@ -1,0 +1,55 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "Logo16.png",
+         "64": "Logo64.png"
+      },
+      "default_popup": "browserAction/menu.html",
+      "default_title": "Tournesol actions"
+   },
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "addTournesolRecommendations.css" ],
+      "js": [ "importWrappers/displayHomeRecommendations.js", "importWrappers/displaySearchRecommendations.js" ],
+      "matches": [ "https://*.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "addVideoStatistics.css", "addModal.css", "addVideoButtons.css" ],
+      "js": [ "importWrappers/addVideoStatistics.js", "importWrappers/addModal.js", "importWrappers/addVideoButtons.js" ],
+      "matches": [ "https://*.youtube.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "importWrappers/fetchTournesolToken.js", "importWrappers/fetchTournesolRecommendationsLanguages.js" ],
+      "matches": [ "https://tournesol.app/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "Open Tournesol directly from YouTube",
+   "differential_fingerprint": "1.7fe7ca641a4d9736bbfd207aa595293a34d9b645342d4c68f9a5b634f27a33a8",
+   "host_permissions": [ "https://tournesol.app/", "https://api.tournesol.app/", "https://www.youtube.com/" ],
+   "icons": {
+      "128": "Logo128.png",
+      "512": "Logo512.png",
+      "64": "Logo64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoONvLkeRjVw3mI7uNaSoh+6uzm3TYO/+wvWTrLiSoX/izRSLhOnXwcDiLcXJnprPLyT2BIn/bK5wdri3V95onFcAcOK2miPDhstw9YS5zEg8+G4YVfZqZCo2SFcNPAI2HSsCaIf9z2QxHeaj/4D4GXUNyo2l0dEaj8Vlrz+YFz8Tej+EsfD6KgGIsZ2jz5We+O8oEBs9nhYGhUXghA2RmOlJpaHA0aLslanulA22tjCfg18f6wpnu4DZgX9InpCqNFh2agdStW8UTtcAjX8tVCaxBx5mPiNN0+GYTxMKVohiVs8z3uA+rTlVZa58wgHkTvW3PwCyofjobdp1oMSJqwIDAQAB",
+   "manifest_version": 3,
+   "name": "Tournesol Extension",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "activeTab", "contextMenus", "storage", "webNavigation", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.6.1",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.youtube.com/*", "https://tournesol.app/*" ],
+      "resources": [ "Logo128.png", "html/*", "images/*", "utils.js", "models/*", "config.js", "displayHomeRecommendations.js", "addVideoStatistics.js", "fetchTournesolToken.js", "displaySearchRecommendations.js", "addModal.js", "addVideoButtons.js", "fetchTournesolRecommendationsLanguages.js" ]
+   } ]
+}

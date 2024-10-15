@@ -35,11 +35,3 @@ curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh 
 
 ### autotiling
 https://github.com/nwg-piotr/autotiling
-
-# random links
-
-docker sudo grp
-https://docs.docker.com/engine/install/linux-postinstall/
-
-tap to click i3
-https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/

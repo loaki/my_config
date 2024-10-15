@@ -1,0 +1,11 @@
+# docker ps
+docker ps --format "{{.ID}}: {{.Names}}: ({{.Status}})" | column -t -s ':'
+
+# xrandr
+xrandr --output eDP-1 --primary --output HDMI-1 --above eDP-1
+
+# docker sudo grp
+https://docs.docker.com/engine/install/linux-postinstall/
+
+# tap to click i3
+https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/

@@ -13,7 +13,7 @@ sudo apt-get update > /dev/null && sudo apt-get upgrade -y > /dev/null
 print_status "System updated and upgraded"
 
 # Install packages
-packages="curl vim i3 kitty zsh rofi bat htop pavucontrol pulseaudio picom maim libyaml-perl note python3 python3-i3ipc python3-venv python3-pip autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev httpie neovim"
+packages="curl vim i3 kitty zsh rofi bat htop pavucontrol pulseaudio picom maim libyaml-perl note python3 python3-i3ipc python3-venv python3-pip autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev httpie"
 
 for package in $packages; do
     sudo apt-get install "$package" -y > /dev/null

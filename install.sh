@@ -8,6 +8,28 @@ print_status() {
     fi
 }
 
+DIR="dotfiles"
+
+link_files() {
+    local curr_dir="$1"
+    find "$curr_dir" -mindepth 1 -maxdepth 1 | while read -r item; do
+        if [ -d "$item" ]; then
+            mkdir -p "$HOME/${item#$DIR/}"
+            link_files "$item"
+        elif [ -f "$item" ]; then
+            local relative_path="${item#$DIR/}"
+            local absolute_path=$(realpath "$item")
+            ln -sf "$absolute_path" "$HOME/$relative_path"
+            print_status "Linked $relative_path"
+        fi
+    done
+}
+
+if [ $1 == "link" ]; then
+    link_files "$DIR"
+    exit 0
+fi
+
 # Update and Upgrade
 sudo apt-get update > /dev/null && sudo apt-get upgrade -y > /dev/null
 print_status "System updated and upgraded"
@@ -64,21 +86,4 @@ print_status "i3lock cp to /usr/bin"
 sudo usermod -aG video $USER
 
 # Symlink dotfiles
-DIR="dotfiles"
-
-link_files() {
-    local curr_dir="$1"
-    find "$curr_dir" -mindepth 1 -maxdepth 1 | while read -r item; do
-        if [ -d "$item" ]; then
-            mkdir -p "$HOME/${item#$DIR/}"
-            link_files "$item"
-        elif [ -f "$item" ]; then
-            local relative_path="${item#$DIR/}"
-            local absolute_path=$(realpath "$item")
-            ln -sf "$absolute_path" "$HOME/$relative_path"
-            print_status "Linked $relative_path"
-        fi
-    done
-}
-
 link_files "$DIR"

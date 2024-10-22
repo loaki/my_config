@@ -1,13 +1,3 @@
-# brave
-
-extensions:  
-dpacanjfikmhoddligfbehkpomnbgblf  
-eimadpbcbfnmbkopoojfekhnkhdbieeh  
-nebbehiamgpclkolmehcolhnfkkagdmp  
-nidimbejmadpggdgooppinedbggeacla  
-cofdbpoegempjloogbagkncekinflcnj  
-oboonakemofpalcgghocfoadofidjkkk  
-
 # i3lock color
 
 https://github.com/Raymo111/i3lock-color
@@ -15,6 +5,9 @@ https://github.com/Raymo111/i3lock-color
 # kitty
 
 https://github.com/ttys3/my-kitty-config
+
+### kitty grab
+https://github.com/yurikhan/kitty_grab
 
 # zsh  
 

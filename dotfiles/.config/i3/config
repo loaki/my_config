@@ -6,6 +6,7 @@ set $mod Mod4
 
 # Set common scripts to vars
 set $lock ~/.scripts/lock.sh
+set $drive ~/.scripts/mount_google_drive.sh
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -17,6 +18,9 @@ font pango:monospace 8
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
+
+# mount google drive
+exec_always --no-startup-id $drive
 
 # autotiling
 exec_always --no-startup-id autotiling --limit 2

@@ -138,4 +138,4 @@ setopt NO_BEEP
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init zsh)"
 
-export FZF_DEFAULT_OPTS="--preview='$preview_cmd'"
+export FZF_CTRL_T_OPTS="--preview='$preview_cmd'"

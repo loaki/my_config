@@ -101,10 +101,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python="python3"
 alias dc="docker compose"
+preview_cmd="cat {}"
 if command -v bat > /dev/null; then
   alias cat="bat"
+  preview_cmd="bat --style=numbers --color=always --line-range :500 {}"
 elif command -v batcat > /dev/null; then
   alias cat="batcat"
+  preview_cmd="batcat --style=numbers --color=always --line-range :500 {}"
 fi
 if command -v zoxide > /dev/null; then
   alias cd="z"
@@ -134,3 +137,5 @@ setopt NO_BEEP
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init zsh)"
+
+export FZF_DEFAULT_OPTS="--preview='$preview_cmd'"

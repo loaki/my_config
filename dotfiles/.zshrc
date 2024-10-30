@@ -139,3 +139,4 @@ setopt NO_BEEP
 eval "$(zoxide init zsh)"
 
 export FZF_CTRL_T_OPTS="--preview='$preview_cmd'"
+export FZF_CTRL_R_OPTS="--preview-window down:wrap --preview='echo {}'"

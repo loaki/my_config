@@ -222,7 +222,7 @@ bar {
 bindsym $mod+Control+l exec --no-startup-id $lock
 
 # screenshot
-bindsym $mod+Control+p exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
+bindsym $mod+Control+p exec --no-startup-id maim --select "/home/$USER/Pictures/$(date +%Y-%m-%dT%H:%M:%S).png"
 
 # compositor for zoom screensharing
 exec --no-startup-id picom --daemon --config /dev/null

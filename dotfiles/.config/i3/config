@@ -222,7 +222,7 @@ bar {
 bindsym $mod+Control+l exec --no-startup-id $lock
 
 # screenshot
-bindsym $mod+Control+p exec --no-startup-id maim --select "/home/$USER/Pictures/$(date +%Y-%m-%dT%H:%M:%S).png"
+bindsym $mod+Control+p exec --no-startup-id sh -c 'filename="/home/$USER/Pictures/$(date +%Y-%m-%dT%H:%M:%S).png" && maim --select "$filename" && notify-send "Screenshot Saved" "The screenshot has been saved to $filename"'
 
 # compositor for zoom screensharing
 exec --no-startup-id picom --daemon --config /dev/null

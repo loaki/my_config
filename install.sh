@@ -25,7 +25,7 @@ link_files() {
     done
 }
 
-if [ $1 == "link" ]; then
+if [[ $1 == "link" ]]; then
     link_files "$DIR"
     exit 0
 fi

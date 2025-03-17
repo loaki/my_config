@@ -28,6 +28,9 @@ exec_always --no-startup-id autotiling --limit 2
 # keyboard layout
 exec_always --no-startup-id setxkbmap us
 
+# remove caps lock
+exec_always --no-startup-id setxkbmap -option caps:none
+
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- $lock

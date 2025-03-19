@@ -1,28 +1,18 @@
 #!/bin/sh
 
 
-bg = "#24273a"
-fg = "#cad3f5"
-black = "#363a4f"
-red = "#E78284"
-green = "#A6D189"
-yellow = "#E5C890"
-blue = "#8CAAEE"
-magenta = "#F4B8E4"
-cyan = "#81C8BE"
-white = "#B5BFE2"
-
 alpha="dd"
-# bg="#2c2c2e"
-# fg="#9f9f9f"
-# hi="#efef8f"
-# ac="#a0afa0"
-# tx="#040404"
-# ia="#8f8f8f"
-# be="#8faf9f"
-# yw="#ccdc90"
-# gn="#88b090"
-# rd="#e89393"
+bg="#24273a"
+fg="#cad3f5"
+black="#363a4f"
+red="#E78284"
+green="#A6D189"
+yellow="#E5C890"
+blue="#8CAAEE"
+magenta="#F4B8E4"
+cyan="#81C8BE"
+white="#B5BFE2"
+
 
 i3lock \
     --insidever-color=$bg$alpha \
@@ -38,9 +28,9 @@ i3lock \
     --verif-color=$green \
     --wrong-color=$red \
     --modif-color=$green \
-    --layout-color=$green \
-    --date-color=$green \
-    --time-color=$green \
+    --layout-color=$white \
+    --date-color=$white \
+    --time-color=$white \
     --blur 1 \
     --clock \
     --indicator \

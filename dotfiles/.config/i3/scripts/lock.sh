@@ -4,6 +4,7 @@
 alpha="dd"
 bg="#24273a"
 fg="#cad3f5"
+primary="#363b4e"
 black="#363a4f"
 red="#E78284"
 green="#A6D189"
@@ -20,11 +21,11 @@ i3lock \
     --inside-color=$bg$alpha \
     --ringver-color=$green$alpha \
     --ringwrong-color=$red$alpha \
-    --ring-color=$fg$alpha \
+    --ring-color=$primary$alpha \
     --line-uses-ring \
     --keyhl-color=$green$alpha \
     --bshl-color=$red$alpha \
-    --separator-color=$fg$alpha \
+    --separator-color=$primary$alpha \
     --verif-color=$green \
     --wrong-color=$red \
     --modif-color=$green \

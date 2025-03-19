@@ -13,7 +13,7 @@ exec --no-startup-id dunst -conf ~/.config/i3/dunst/dunstrc
 exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/i3/scripts/lock.sh
 exec_always --no-startup-id ~/.config/i3/scripts/mount_google_drive.sh
-
+exec_always --no-startup-id autotiling --limit 2
 
 
 #--- FONT IN WINDOW TITLES ------------------------------------
@@ -181,6 +181,9 @@ bindsym $mod+r mode "resize"
 
 # screenshot
 bindsym $mod+Control+p exec --no-startup-id sh -c 'filename="/home/$USER/Pictures/$(date +%Y-%m-%dT%H:%M:%S).png" && maim --select "$filename" && notify-send "Screenshot Saved" "The screenshot has been saved to $filename"'
+
+# keybinding to lock screen
+bindsym $mod+Control+l exec --no-startup-id ~/.config/i3/scripts/lock.sh
 
 # brightness control
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -q set 5%-

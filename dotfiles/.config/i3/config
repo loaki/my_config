@@ -7,7 +7,7 @@ exec --no-startup-id numlockx
 exec_always --no-startup-id setxkbmap -option caps:none
 exec --no-startup-id picom --config ~/.config/i3/picom/picom.conf
 exec --no-startup-id ~/.config/i3/scripts/launch_polybar.sh
-exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/abstract-swirls.jpg
+exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/dark-waves.jpg
 exec --no-startup-id dunst -conf ~/.config/i3/dunst/dunstrc
 
 exec --no-startup-id dex --autostart --environment i3

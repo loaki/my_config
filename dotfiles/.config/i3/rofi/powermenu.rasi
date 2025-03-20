@@ -21,7 +21,7 @@ configuration {
 
 window {
 	width: 170px;
-	height: 150px;
+	height: 200px;
 	border-radius: 0;
 	border: 0;
 	padding: 10;

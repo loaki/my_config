@@ -76,12 +76,6 @@ print_status "fzf mv to /usr/bin"
 sudo mv ~/.local/bin/zoxide /usr/bin/ > /dev/null
 print_status "zoxide mv to /usr/bin"
 
-sudo cp dotfiles/.scripts/autotiling /usr/bin/ > /dev/null
-print_status "autotiling cp to /usr/bin"
-
-sudo cp dotfiles/.scripts/i3lock /usr/bin/ > /dev/null
-print_status "i3lock cp to /usr/bin"
-
 # Set brightness permissions
 sudo usermod -aG video $USER
 

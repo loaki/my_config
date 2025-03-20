@@ -5,6 +5,7 @@
 | cursor | [Macchiato Dark](https://github.com/catppuccin/cursors) |
 | GTK | [Catppuccin](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme) |
 | font | [JetBrainsMono](https://www.jetbrains.com/lp/mono/) |
+| wall | [catppuccin](https://github.com/orangci/walls-catppuccin-mocha) |
 
 
 | zsh | |

@@ -26,8 +26,8 @@ window {
 	border: 0;
 	padding: 10;
 	background-color: @bg;
-	x-offset:   -747px;        
-	y-offset:   -245px;
+	x-offset:   0px;
+	y-offset:   0px;
 }
 
 mainbox {

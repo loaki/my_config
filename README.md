@@ -1,34 +1,33 @@
-# cursor
+# config
 
-https://github.com/catppuccin/cursors
+| themes | |
+| --- | --- |
+| cursor | [Macchiato Dark](https://github.com/catppuccin/cursors) |
+| GTK | [Catppuccin](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme) |
+| font | [JetBrainsMono](https://www.jetbrains.com/lp/mono/) |
 
-# i3lock color
 
-https://github.com/Raymo111/i3lock-color
+| zsh | |
+| --- | --- |
+| syntax | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) |
+| autosuggestions | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) |
+| fuzzy finder | [fzf](https://github.com/junegunn/fzf) |
+| cd | [zoxide](https://github.com/ajeetdsouza/zoxide) |
 
-# kitty
 
-https://github.com/ttys3/my-kitty-config
+| kitty | |
+| --- | --- |
+| grab | [kitty_grab](https://github.com/yurikhan/kitty_grab) |
 
-### kitty grab
-https://github.com/yurikhan/kitty_grab
 
-# zsh  
+| i3 | |
+| --- | --- |
+| autotiling | [autotiling](https://github.com/nwg-piotr/autotiling) |
+| i3lock color | [i3lock-color](https://github.com/Raymo111/i3lock-color) |
+| google drive | [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse) |
 
-### zsh-syntax-highlighting  
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting  
-Edit plugins variable in your ~/.zshrc file and add zsh-syntax-highlighting  
 
-### zsh-autosuggestions  
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions  
-Add zsh-autosuggestions to your list of plugins in ~/.zshrc  
-
-### fzf  
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install  
-
-### zoxide
-https://github.com/ajeetdsouza/zoxide  
-curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
-
-### autotiling
-https://github.com/nwg-piotr/autotiling
+| configs | |
+| --- | --- |
+| i3 | [catppuccin](https://gitlab.com/prolinux410/owl_dots/-/blob/main/i3wm/i3_catppuccin) |
+| kitty | [ttys3](https://github.com/ttys3/my-kitty-config) |

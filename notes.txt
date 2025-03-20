@@ -10,8 +10,5 @@ https://docs.docker.com/engine/install/linux-postinstall/
 # tap to click i3
 https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
 
-# mount google drive
-https://github.com/astrada/google-drive-ocamlfuse
-
 # KeePassXC
 https://keepassxc.org/download/

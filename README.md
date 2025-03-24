@@ -1,5 +1,25 @@
 # config
 
+| tools | |
+| --- | --- |
+| compositor | [picom](https://github.com/yshui/picom) |
+| notification | [dunst](https://github.com/dunst-project/dunst) |
+| terminal | [kitty](https://github.com/kovidgoyal/kitty) |
+| shell | [zsh](https://ohmyz.sh/) |
+| dmenu | [rofi](https://github.com/davatorium/rofi) |
+| screenshot | [maim](https://github.com/naelstrof/maim) |
+| google drive | [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse) |
+| note | [nb](https://github.com/xwmx/nb) |
+| bluetooth | [blueman](https://github.com/blueman-project/blueman) |
+| passwords | [keepassxc](https://keepassxc.org) |
+| browser | [brave](https://brave.com) |
+| ide | [vsc](https://code.visualstudio.com/) |
+| editor | [vim](https://www.vim.org/) |
+| http | [httpie](https://github.com/httpie/cli) |
+| audio | [pulseaudio](https://doc.ubuntu-fr.org/pulseaudio) |
+| volume | [pavucontrol](https://doc.ubuntu-fr.org/pavucontrol) |
+
+
 | themes | |
 | --- | --- |
 | cursor | [Macchiato Dark](https://github.com/catppuccin/cursors) |
@@ -14,6 +34,7 @@
 | autosuggestions | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) |
 | fuzzy finder | [fzf](https://github.com/junegunn/fzf) |
 | cd | [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| cat | [bat](https://github.com/sharkdp/bat) |
 
 
 | kitty | |
@@ -25,7 +46,7 @@
 | --- | --- |
 | autotiling | [autotiling](https://github.com/nwg-piotr/autotiling) |
 | i3lock color | [i3lock-color](https://github.com/Raymo111/i3lock-color) |
-| google drive | [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse) |
+
 
 
 | configs | |

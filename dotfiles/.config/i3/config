@@ -14,7 +14,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/i3/scripts/lock.sh
 exec_always --no-startup-id ~/.config/i3/scripts/mount_google_drive.sh
 exec_always --no-startup-id autotiling --limit 2
-
+exec_always --no-startup-id autorandr
 
 #--- FONT IN WINDOW TITLES ------------------------------------
 font pango:monospace 8

@@ -22,6 +22,7 @@
 | sys info | [conky](https://doc.ubuntu-fr.org/conky) |
 | display rendering | [autorandr](https://github.com/phillipberndt/autorandr) |
 | json processor | [jq](https://github.com/jqlang/jq) |
+| file manager | [ranger](https://github.com/ranger/ranger) |
 
 
 | themes | |

@@ -18,6 +18,10 @@
 | http | [httpie](https://github.com/httpie/cli) |
 | audio | [pulseaudio](https://doc.ubuntu-fr.org/pulseaudio) |
 | volume | [pavucontrol](https://doc.ubuntu-fr.org/pavucontrol) |
+| wallpaper | [feh](https://doc.ubuntu-fr.org/feh) |
+| sys info | [conky](https://doc.ubuntu-fr.org/conky) |
+| display rendering | [autorandr](https://github.com/phillipberndt/autorandr) |
+| json processor | [jq](https://github.com/jqlang/jq) |
 
 
 | themes | |
@@ -26,6 +30,7 @@
 | GTK | [Catppuccin](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme) |
 | font | [JetBrainsMono](https://www.jetbrains.com/lp/mono/) |
 | wall | [catppuccin](https://github.com/orangci/walls-catppuccin-mocha) |
+| theme switcher | [lxappearance](https://github.com/lxde/lxappearance) |
 
 
 | zsh | |
@@ -46,6 +51,7 @@
 | --- | --- |
 | autotiling | [autotiling](https://github.com/nwg-piotr/autotiling) |
 | i3lock color | [i3lock-color](https://github.com/Raymo111/i3lock-color) |
+| bar | [polybar](https://wiki.archlinux.org/title/Polybar) |
 
 
 

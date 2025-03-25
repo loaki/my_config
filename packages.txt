@@ -22,5 +22,5 @@ blueman
 polybar
 dunst
 feh
-conky
+conky-all
 neofetch

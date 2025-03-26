@@ -24,7 +24,7 @@ sleep 1
 if [ "$display" != "" ]; then
     i3-msg "focus output $display"
     i3-msg "workspace 9"
-    i3-msg "exec kitty -e lazydocker"
+    i3-msg "exec kitty"
     sleep 1
     i3-msg "exec element-desktop"
     sleep 1

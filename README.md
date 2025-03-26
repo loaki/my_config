@@ -28,6 +28,7 @@
 
 | themes | |
 | --- | --- |
+| catppuccin | [catppuccin-macchiato](https://github.com/catppuccin) |
 | cursor | [Macchiato Dark](https://github.com/catppuccin/cursors) |
 | GTK | [Catppuccin](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme) |
 | font | [JetBrainsMono](https://www.jetbrains.com/lp/mono/) |

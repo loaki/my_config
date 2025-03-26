@@ -24,6 +24,7 @@
 | json processor | [jq](https://github.com/jqlang/jq) |
 | file manager | [ranger](https://github.com/ranger/ranger) |
 | spotify tui | [spotify-player](https://github.com/aome510/spotify-player) |
+| lazy-docker | [lazy-docker](https://github.com/katopz/lazy-docker)|
 
 
 | themes | |

@@ -15,6 +15,7 @@ sleep $sleep_time
 i3-msg "focus output eDP-1"
 i3-msg "workspace 1"
 i3-msg "exec brave-browser"
+i3-msg "layout tabbed"
 sleep  $sleep_time
 i3-msg "workspace 2"
 i3-msg "move workspace to output eDP-1"

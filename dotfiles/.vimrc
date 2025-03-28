@@ -14,7 +14,7 @@ endif
 
 " Plugins
 call plug#begin('~/.vim/plugged')
-  Plug 'ConnorHolyday/vim-snazzy'
+  Plug 'catppuccin/vim', { 'as': 'catppuccin' }
   "Plug 'vim-airline/vim-airline'
   Plug 'godlygeek/csapprox'
   Plug 'vim-airline/vim-airline-themes'
@@ -24,11 +24,10 @@ call plug#end()
 " Color scheme
 syntax on
 set t_Co=256
-colorscheme snazzy
-
-let g:lightline = {
-\ 'colorscheme': 'snazzy',
-\ }
+colorscheme catppuccin_macchiato
+ 
+let g:lightline = {'colorscheme': 'catppuccin_macchiato'}
+let g:airline_theme = 'catppuccin_macchiato'
 
 " Show airline
 set laststatus=2
@@ -40,14 +39,14 @@ au BufRead,BufNewFile *.pl set filetype=prolog
 :imap jj <Esc>
 
 " Indentation
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 
 " Code readability
 set number
-set colorcolumn=80
+set colorcolumn=100
 
 set termguicolors
 

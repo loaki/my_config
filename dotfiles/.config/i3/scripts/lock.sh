@@ -1,37 +1,54 @@
 #!/bin/sh
 
 
-alpha="dd"
-bg="#24273a"
-fg="#cad3f5"
-primary="#363b4e"
-black="#363a4f"
-red="#E78284"
-green="#A6D189"
-yellow="#E5C890"
-blue="#8CAAEE"
-magenta="#F4B8E4"
-cyan="#81C8BE"
-white="#B5BFE2"
+rosewater="#F4DBD6"
+flamingo="#F0C6C6"
+pink="#F5BDE6"
+mauve="#C6A0F6"
+red="#ED8796"
+maroon="#EE99A0"
+peach="#F5A97F"
+yellow="#EED49F"
+green="#A6DA95"
+teal="#8BD5CA"
+sky="#91D7E3"
+sapphire="#7DC4E4"
+blue="#8AADF4"
+lavender="#B7BDF8"
+
+text="#CAD3F5"
+subtext1="#B8C0E0"
+subtext0="#A5ADCB"
+overlay2="#939AB7"
+overlay1="#8087A2"
+overlay0="#6E738D"
+surface2="#5B6078"
+surface1="#494D64"
+surface0="#363A4F"
+
+base="#24273A"
+mantle="#1E2030"
+crust="#181926"
+
 
 
 i3lock \
-    --insidever-color=$bg$alpha \
-    --insidewrong-color=$bg$alpha \
-    --inside-color=$bg$alpha \
+    --insidever-color=$base$alpha \
+    --insidewrong-color=$base$alpha \
+    --inside-color=$base$alpha \
     --ringver-color=$green$alpha \
     --ringwrong-color=$red$alpha \
-    --ring-color=$primary$alpha \
+    --ring-color=$surface0$alpha \
     --line-uses-ring \
     --keyhl-color=$green$alpha \
     --bshl-color=$red$alpha \
-    --separator-color=$primary$alpha \
+    --separator-color=$surface0$alpha \
     --verif-color=$green \
     --wrong-color=$red \
     --modif-color=$green \
-    --layout-color=$white \
-    --date-color=$white \
-    --time-color=$white \
+    --layout-color=$text \
+    --date-color=$text \
+    --time-color=$text \
     --blur 1 \
     --clock \
     --indicator \

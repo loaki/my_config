@@ -11,22 +11,25 @@ elif xrandr | grep "DP-3 connected"; then
     xrandr --output DP-3 --primary --output DP-3 --left-of eDP-1
 fi
 
-sleep $sleep_time
-i3-msg "focus output eDP-1"
-i3-msg "workspace 1"
-i3-msg "exec brave-browser"
-i3-msg "layout tabbed"
-sleep  $sleep_time
-i3-msg "workspace 2"
-i3-msg "move workspace to output eDP-1"
-i3-msg "exec kitty"
-sleep $sleep_time
-i3-msg "workspace 8"
-i3-msg "exec keepassxc"
-
-if [ "$display" != "" ]; then
+primary_display() {
     sleep $sleep_time
-    i3-msg "focus output $display"
+    i3-msg "focus output $1"
+    i3-msg "workspace 1"
+    i3-msg "move workspace to output $1"
+    i3-msg "exec brave-browser"
+    i3-msg "layout tabbed"
+    sleep $sleep_time
+    i3-msg "workspace 2"
+    i3-msg "move workspace to output $1"
+    i3-msg "exec kitty"
+    sleep $sleep_time
+    i3-msg "workspace 8"
+    i3-msg "exec keepassxc"
+}
+
+secondary_display() {
+    sleep $sleep_time
+    i3-msg "focus output $1"
     i3-msg "workspace 9"
     i3-msg "exec kitty"
     sleep $sleep_time
@@ -38,4 +41,14 @@ if [ "$display" != "" ]; then
     sleep $sleep_time
     i3-msg "focus right"
     i3-msg "resize grow width 10 px or 10 ppt"
+}
+
+if [ "$display" == "HDMI-1" ]; then
+    primary_display "eDP-1"
+    secondary_display "HDMI-1"
+elif [ "$display" == "DP-3" ]; then
+    primary_display "DP-3"
+    secondary_display "eDP-1"
+else
+    primary_display "eDP-1"
 fi

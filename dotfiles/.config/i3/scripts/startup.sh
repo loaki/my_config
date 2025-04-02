@@ -47,7 +47,7 @@ if [ "$display" == "HDMI-1" ]; then
     primary_display "eDP-1"
     secondary_display "HDMI-1"
 elif [ "$display" == "DP-3" ]; then
-    primary_display "DP-3"
+    # primary_display "DP-3"
     secondary_display "eDP-1"
 else
     primary_display "eDP-1"

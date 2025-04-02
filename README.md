@@ -44,6 +44,7 @@
 | fuzzy finder | [fzf](https://github.com/junegunn/fzf) |
 | cd | [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | cat | [bat](https://github.com/sharkdp/bat) |
+| ls | [lsd](https://github.com/lsd-rs/lsd) |
 
 
 | kitty | |

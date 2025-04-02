@@ -24,3 +24,4 @@ dunst
 feh
 conky-all
 neofetch
+lsd

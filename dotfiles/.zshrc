@@ -113,7 +113,7 @@ if command -v zoxide > /dev/null; then
   alias cd="z"
 fi
 if command -v lsd > /dev/null; then
-  alias ls="lsd"
+  alias ls="lsd --size short --date relative"
 fi
 #
 # AUTOCOMPLETION

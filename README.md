@@ -45,6 +45,7 @@
 | cd | [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | cat | [bat](https://github.com/sharkdp/bat) |
 | ls | [lsd](https://github.com/lsd-rs/lsd) |
+| git diff | [delta](https://github.com/dandavison/delta) |
 
 
 | kitty | |

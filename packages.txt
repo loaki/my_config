@@ -25,3 +25,4 @@ feh
 conky-all
 neofetch
 lsd
+git-delta

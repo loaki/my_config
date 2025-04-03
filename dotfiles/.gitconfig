@@ -1,0 +1,21 @@
+[user]
+	email = loaki.0x@gmail.com
+    name = Loaki
+
+[include]
+	path = ~/.config/delta/themes/catppuccin.gitconfig
+
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+	features = catppuccin-macchiato
+    navigate = true  # use n and N to move between diff sections
+    dark = true      # or light = true, or omit for auto-detection
+	line-numbers = true
+
+[merge]
+    conflictstyle = zdiff3

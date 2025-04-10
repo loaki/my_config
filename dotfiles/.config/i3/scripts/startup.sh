@@ -13,6 +13,7 @@ fi
 
 primary_display() {
     sleep $sleep_time
+    sleep $sleep_time
     i3-msg "focus output $1"
     i3-msg "workspace 1"
     i3-msg "move workspace to output $1"
@@ -28,6 +29,7 @@ primary_display() {
 }
 
 secondary_display() {
+    sleep $sleep_time
     sleep $sleep_time
     i3-msg "focus output $1"
     i3-msg "workspace 9"
@@ -47,7 +49,7 @@ if [ "$display" == "HDMI-1" ]; then
     primary_display "eDP-1"
     secondary_display "HDMI-1"
 elif [ "$display" == "DP-3" ]; then
-    # primary_display "DP-3"
+    primary_display "DP-3"
     secondary_display "eDP-1"
 else
     primary_display "eDP-1"

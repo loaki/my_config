@@ -25,6 +25,7 @@
 | file manager | [ranger](https://github.com/ranger/ranger) |
 | spotify tui | [spotify-player](https://github.com/aome510/spotify-player) |
 | lazy-docker | [lazy-docker](https://github.com/katopz/lazy-docker)|
+| lowfi cli | [lowfi](https://github.com/talwat/lowfi) |
 
 
 | themes | |

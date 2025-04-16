@@ -5,18 +5,18 @@ set $mod Mod4
 #--- START ----------------------------------------------------
 exec --no-startup-id numlockx
 exec_always --no-startup-id setxkbmap -option caps:none
-exec --no-startup-id picom --config ~/.config/i3/picom/picom.conf
-exec --no-startup-id ~/.config/i3/scripts/launch_polybar.sh
-exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/dark-waves.jpg
-exec --no-startup-id dunst -conf ~/.config/i3/dunst/dunstrc
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
+exec --no-startup-id ~/.config/scripts/launch_polybar.sh
+exec --no-startup-id feh --bg-scale ~/.config/wallpapers/dark-waves.jpg
+exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 
 exec --no-startup-id dex --autostart --environment i3
-exec_always --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/i3/scripts/lock.sh
+exec_always --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/scripts/lock.sh
 exec_always --no-startup-id autotiling --limit 2
 
-exec --no-startup-id ~/.config/i3/scripts/mount_google_drive.sh
+exec --no-startup-id ~/.config/scripts/mount_google_drive.sh
 exec --no-startup-id autorandr
-exec --no-startup-id ~/.config/i3/scripts/startup.sh
+exec --no-startup-id ~/.config/scripts/startup.sh
 
 
 #--- FONT IN WINDOW TITLES ------------------------------------
@@ -73,7 +73,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start rofi
-bindsym $mod+d exec --no-startup-id rofi -show drun -config .config/i3/rofi/menu.rasi -show-icons
+bindsym $mod+d exec --no-startup-id rofi -show drun -config .config/rofi/menu.rasi -show-icons
 
 # change focus
 bindsym $mod+Left focus left
@@ -185,7 +185,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Control+p exec --no-startup-id sh -c 'filename="/home/$USER/Pictures/$(date +%Y-%m-%dT%H:%M:%S).png" && maim --select "$filename" && notify-send "Screenshot Saved" "The screenshot has been saved to $filename"'
 
 # keybinding to lock screen
-bindsym $mod+Control+l exec --no-startup-id ~/.config/i3/scripts/lock.sh
+bindsym $mod+Control+l exec --no-startup-id ~/.config/scripts/lock.sh
 
 # brightness control
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -q set 5%-

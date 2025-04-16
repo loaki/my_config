@@ -46,10 +46,10 @@
 | syntax | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) |
 | autosuggestions | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) |
 | fuzzy finder | [fzf](https://github.com/junegunn/fzf) |
-| cd | [zoxide](https://github.com/ajeetdsouza/zoxide) |
-| cat | [bat](https://github.com/sharkdp/bat) |
-| ls | [lsd](https://github.com/lsd-rs/lsd) |
-| git diff | [delta](https://github.com/dandavison/delta) |
+| better cd | [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| better cat | [bat](https://github.com/sharkdp/bat) |
+| better ls | [lsd](https://github.com/lsd-rs/lsd) |
+| better diff | [delta](https://github.com/dandavison/delta) |
 
 
 | kitty | |

@@ -29,6 +29,8 @@
 | lazy-docker | [lazy-docker](https://github.com/katopz/lazy-docker)|
 | lowfi cli | [lowfi](https://github.com/talwat/lowfi) |
 | transfer files | [croc](https://github.com/schollz/croc) |
+| hacker news cli | [circumflex](https://github.com/bensadeh/circumflex) |
+| stackoverflow cli | [aso](https://github.com/loaki/aso) |
 
 
 | themes | |

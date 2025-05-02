@@ -1,7 +1,7 @@
 #!/bin/bash
 
 display=""
-sleep_time=5
+sleep_time=6
 
 if xrandr | grep "HDMI-1 connected"; then
     display="HDMI-1"

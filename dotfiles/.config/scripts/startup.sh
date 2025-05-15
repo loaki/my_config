@@ -17,7 +17,7 @@ primary_display() {
     i3-msg "focus output $1"
     i3-msg "workspace 1"
     i3-msg "move workspace to output $1"
-    i3-msg "exec brave-browser"
+    i3-msg "exec firefox-esr"
     i3-msg "layout tabbed"
     sleep $sleep_time
     i3-msg "workspace 2"

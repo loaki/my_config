@@ -14,7 +14,7 @@
 | note | [nb](https://github.com/xwmx/nb) |
 | bluetooth | [blueman](https://github.com/blueman-project/blueman) |
 | passwords | [keepassxc](https://keepassxc.org) |
-| browser | [brave](https://brave.com) |
+| browser | [firefox](https://www.mozilla.org/en-US/firefox) |
 | ide | [vsc](https://code.visualstudio.com/) |
 | editor | [vim](https://www.vim.org/) |
 | http | [httpie](https://github.com/httpie/cli) |

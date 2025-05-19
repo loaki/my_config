@@ -9,7 +9,7 @@
 | terminal | [kitty](https://github.com/kovidgoyal/kitty) |
 | shell | [zsh](https://ohmyz.sh/) |
 | dmenu | [rofi](https://github.com/davatorium/rofi) |
-| screenshot | [maim](https://github.com/naelstrof/maim) |
+| screenshot | [flameshot](https://github.com/flameshot-org/flameshot) |
 | google drive | [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse) |
 | note | [nb](https://github.com/xwmx/nb) |
 | bluetooth | [blueman](https://github.com/blueman-project/blueman) |

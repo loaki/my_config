@@ -183,7 +183,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # screenshot
-bindsym $mod+Control+p exec --no-startup-id sh -c 'filename="/home/$USER/Pictures/$(date +%Y-%m-%dT%H:%M:%S).png" && maim --select "$filename" && notify-send "Screenshot Saved" "The screenshot has been saved to $filename"'
+bindsym $mod+Control+p exec --no-startup-id flameshot gui -p ~/Pictures
 
 # keybinding to lock screen
 bindsym $mod+Control+l exec --no-startup-id ~/.config/scripts/lock.sh

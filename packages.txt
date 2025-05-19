@@ -9,7 +9,7 @@ htop
 pavucontrol
 pulseaudio
 picom
-maim
+flameshot
 python3
 python3-i3ipc
 python3-venv
@@ -23,6 +23,6 @@ polybar
 dunst
 feh
 conky-all
-neofetch
 lsd
 git-delta
+nnn

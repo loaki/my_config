@@ -24,7 +24,7 @@
 | sys info | [conky](https://doc.ubuntu-fr.org/conky) |
 | display rendering | [autorandr](https://github.com/phillipberndt/autorandr) |
 | json processor | [jq](https://github.com/jqlang/jq) |
-| file manager | [ranger](https://github.com/ranger/ranger) |
+| file manager | [nnn](https://github.com/jarun/nnn) |
 | spotify tui | [spotify-player](https://github.com/aome510/spotify-player) |
 | lazy-docker | [lazy-docker](https://github.com/katopz/lazy-docker)|
 | lowfi cli | [lowfi](https://github.com/talwat/lowfi) |

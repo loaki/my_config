@@ -90,7 +90,7 @@ element-text {
 
 element-icon {
 	background-color: inherit;
-	text-color: inherit;
+	text-color: @fg;
 	padding: 0 10 0 0;
 }
 
@@ -107,16 +107,16 @@ element.normal.active {
 	text-color: @fg;
 }
 element.selected.normal {
-	background-color: @blue;
-	text-color: @bg;
+	background-color: @black;
+	text-color: @fg;
 }
 element.selected.urgent {
-	background-color: @blue;
-	text-color: @bg;
+	background-color: @black;
+	text-color: @fg;
 }
 element.selected.active {
-	background-color: @blue;
-	text-color: @bg;
+	background-color: @black;
+	text-color: @fg;
 }
 element.alternate.normal {
 	background-color: @bg;

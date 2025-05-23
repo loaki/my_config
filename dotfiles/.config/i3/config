@@ -74,7 +74,10 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start rofi
-bindsym $mod+d exec --no-startup-id rofi -show drun -config .config/rofi/menu.rasi -show-icons
+bindsym $mod+d exec --no-startup-id rofi -show drun -config ~/.config/rofi/menu.rasi -show-icons
+
+# web search
+bindsym $mod+Shift+Return exec --no-startup-id ~/.config/scripts/web_search.sh
 
 # change focus
 bindsym $mod+Left focus left

@@ -7,7 +7,7 @@ exec --no-startup-id numlockx
 exec_always --no-startup-id setxkbmap -option caps:none
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 exec --no-startup-id ~/.config/scripts/launch_polybar.sh
-exec --no-startup-id feh --bg-scale ~/.config/wallpapers/dark-waves.jpg
+exec --no-startup-id feh --bg-scale ~/.config/wallpapers/waves.jpg
 exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 
 exec --no-startup-id dex --autostart --environment i3
@@ -37,6 +37,7 @@ default_border pixel 0
 #--- WINDOW FRAME SIZE ----------------------------------------
 for_window [tiling] border pixel 2
 for_window [floating] border pixel 2
+for_window [class="Nm-connection-editor"] floating enable
 
 
 

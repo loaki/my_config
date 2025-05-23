@@ -6,7 +6,7 @@ theme='style-1'
 declare -A URLS
 
 URLS=(
-  ["google"]="https://www.google.com/search?q="
+  ["brave"]="https://search.brave.com/search?q="
   ["github"]="https://github.com/search?q="
   ["stackoverflow"]="http://stackoverflow.com/search?q="
   ["searchcode"]="https://searchcode.com/?q="

@@ -1,7 +1,6 @@
 #!/bin/bash
 
 declare -A osInfo;
-osInfo[/etc/arch-release]=pacman
 osInfo[/etc/debian_version]=apt-get
 
 for f in "${!osInfo[@]}"; do
@@ -68,19 +67,8 @@ install_packages() {
     echo "Package installation process completed."
 }
 
-case $package_manager in
-    pacman)
-        install_packages "pacman -S --noconfirm" "${packages[@]}"
-        ;;
-    apt-get)
-        sudo apt-get update > /dev/null 2>&1
-        install_packages "apt-get install -y" "${packages[@]}"
-        ;;
-    *)
-        echo "Unsupported package manager: $package_manager"
-        exit 1
-        ;;
-esac
+
+sudo apt-get update > /dev/null 2>&1
+install_packages "apt-get install -y" "${packages[@]}"
 
 sudo usermod -aG video $USER
-bash link.sh

@@ -1,4 +1,4 @@
-![image](assets/2025-04-10T09:43:40.png)
+![image](assets/2025-05-26_11-41.png)
 
 # config
 
@@ -64,10 +64,3 @@
 | autotiling | [autotiling](https://github.com/nwg-piotr/autotiling) |
 | i3lock color | [i3lock-color](https://github.com/Raymo111/i3lock-color) |
 | bar | [polybar](https://wiki.archlinux.org/title/Polybar) |
-
-
-
-| configs | |
-| --- | --- |
-| i3 | [catppuccin](https://gitlab.com/prolinux410/owl_dots/-/blob/main/i3wm/i3_catppuccin) |
-| kitty | [ttys3](https://github.com/ttys3/my-kitty-config) |

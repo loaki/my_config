@@ -9,7 +9,6 @@ URLS=(
   ["brave"]="https://search.brave.com/search?q="
   ["github"]="https://github.com/search?q="
   ["stackoverflow"]="http://stackoverflow.com/search?q="
-  ["searchcode"]="https://searchcode.com/?q="
   ["youtube"]="https://www.youtube.com/results?search_query="
 )
 

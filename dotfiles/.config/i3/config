@@ -15,9 +15,9 @@ exec_always --no-startup-id autotiling --limit 2
 
 exec --no-startup-id xset r rate 200 30
 exec --no-startup-id autorandr
-exec --no-startup-id feh --bg-scale ~/.config/wallpapers/cabin-3.png
 exec --no-startup-id ~/.config/scripts/mount_google_drive.sh
 exec --no-startup-id ~/.config/scripts/startup.sh
+exec --no-startup-id feh --bg-scale ~/.config/wallpapers/cabin-3.png
 
 
 #--- FONT IN WINDOW TITLES ------------------------------------

@@ -31,11 +31,11 @@ smart_gaps off
 
 
 #--- DISABLE WINDOW TITLE -------------------------------------
-default_border pixel 0
-
+for_window [class=".*"] title_format " "
+default_border none
 
 #--- WINDOW FRAME SIZE ----------------------------------------
-for_window [tiling] border pixel 2
+for_window [tiling] border none
 for_window [floating] border pixel 2
 for_window [class="Nm-connection-editor"] floating enable
 

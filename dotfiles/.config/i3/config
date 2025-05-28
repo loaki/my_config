@@ -32,6 +32,7 @@ smart_gaps off
 
 #--- DISABLE WINDOW TITLE -------------------------------------
 for_window [class=".*"] title_format " "
+default_border none
 
 
 #--- WINDOW FRAME SIZE ----------------------------------------

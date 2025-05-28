@@ -21,7 +21,7 @@ exec --no-startup-id feh --bg-scale ~/.config/wallpapers/cabin-3.png
 
 
 #--- FONT IN WINDOW TITLES ------------------------------------
-font pango:monospace 8
+font pango:monospace 4
 
 
 #--- GAPS -----------------------------------------------------

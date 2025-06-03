@@ -40,12 +40,12 @@ i3lock \
     --ringwrong-color=$red$alpha \
     --ring-color=$surface0$alpha \
     --line-uses-ring \
-    --keyhl-color=$green$alpha \
+    --keyhl-color=$mauve$alpha \
     --bshl-color=$red$alpha \
     --separator-color=$surface0$alpha \
     --verif-color=$green \
     --wrong-color=$red \
-    --modif-color=$green \
+    --modif-color=$red \
     --layout-color=$text \
     --date-color=$text \
     --time-color=$text \

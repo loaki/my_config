@@ -29,10 +29,11 @@ catppuccin_crust="#181926"
 PROMPT="%K{${catppuccin_surface0}}%F{${catppuccin_subtext0}}%T "
 PROMPT+="%F{${catppuccin_teal}}%c%{$reset_color%}%k"
 PROMPT+='$(git_prompt_info)'
-PROMPT+="%(?:%F{${catppuccin_green}} ❯ :%F{${catppuccin_red}} ❯ )%{$reset_color%}"
+PROMPT+="%(?:%F{${catppuccin_green}}
+❯ :%F{${catppuccin_red}}
+❯ )%{$reset_color%}"
 
-
-ZSH_THEME_GIT_PROMPT_PREFIX="%K{${catppuccin_surface0}}%F{${catppuccin_blue}} ("
+ZSH_THEME_GIT_PROMPT_PREFIX="%K{${catppuccin_surface0}}%F{${catppuccin_blue}} ⌜ "
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}%k"
-ZSH_THEME_GIT_PROMPT_DIRTY=")%F{${catppuccin_yellow}}+"
-ZSH_THEME_GIT_PROMPT_CLEAN=")"
+ZSH_THEME_GIT_PROMPT_DIRTY="%F{${catppuccin_yellow}} •%F{${catppuccin_blue}}⌟"
+ZSH_THEME_GIT_PROMPT_CLEAN="⌟"

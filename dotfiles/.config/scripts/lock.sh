@@ -30,9 +30,12 @@ base="#24273A"
 mantle="#1E2030"
 crust="#181926"
 
+WALLPAPER=$(cat ~/.fehbg | grep -o "'.*'" | sed "s/'//g")
 
 
 i3lock \
+    --image="$WALLPAPER" \
+    --fill \
     --insidever-color=$base$alpha \
     --insidewrong-color=$base$alpha \
     --inside-color=$base$alpha \
@@ -49,7 +52,6 @@ i3lock \
     --layout-color=$text \
     --date-color=$text \
     --time-color=$text \
-    --blur 1 \
     --clock \
     --indicator \
     --time-str="%H:%M:%S" \

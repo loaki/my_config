@@ -1,7 +1,7 @@
 #!/bin/bash
 
 display=""
-sleep_time=6
+sleep_time=5
 
 if xrandr | grep "HDMI-1 connected"; then
     display="HDMI-1"
@@ -12,7 +12,6 @@ elif xrandr | grep "DP-3 connected"; then
 fi
 
 primary_display() {
-    sleep $sleep_time
     sleep $sleep_time
     i3-msg "focus output $1"
     i3-msg "workspace 1"
@@ -29,7 +28,6 @@ primary_display() {
 }
 
 secondary_display() {
-    sleep $sleep_time
     sleep $sleep_time
     i3-msg "focus output $1"
     i3-msg "workspace 9"

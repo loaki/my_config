@@ -27,3 +27,4 @@ lsd
 git-delta
 nnn
 zenity
+numlockx

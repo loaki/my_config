@@ -5,10 +5,8 @@ sleep_time=5
 
 if xrandr | grep "HDMI-1 connected"; then
     display="HDMI-1"
-    xrandr --output eDP-1 --primary --output HDMI-1 --above eDP-1
 elif xrandr | grep "DP-3 connected"; then
     display="DP-3"
-    xrandr --output DP-3 --primary --output DP-3 --left-of eDP-1
 fi
 
 primary_display() {

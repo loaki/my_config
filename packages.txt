@@ -28,3 +28,4 @@ git-delta
 nnn
 zenity
 numlockx
+autorandr

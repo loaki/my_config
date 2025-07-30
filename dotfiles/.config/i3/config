@@ -7,7 +7,6 @@ exec_always --no-startup-id numlockx
 exec_always --no-startup-id setxkbmap -option caps:none
 exec_always --no-startup-id xset r rate 200 30
 exec_always --no-startup-id xset s 300 420
-exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/cabin-3.png
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/scripts/lock.sh
 exec_always --no-startup-id autotiling --limit 2
 
@@ -15,6 +14,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec --no-startup-id autorandr -c
+exec --no-startup-id feh --bg-scale ~/.config/wallpapers/cabin-3.png
 
 exec --no-startup-id ~/.config/scripts/launch_polybar.sh
 exec --no-startup-id ~/.config/scripts/mount_google_drive.sh

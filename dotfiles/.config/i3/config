@@ -6,7 +6,7 @@ set $mod Mod4
 exec_always --no-startup-id numlockx
 exec_always --no-startup-id setxkbmap -option caps:none
 exec_always --no-startup-id xset r rate 200 30
-exec_always --no-startup-id xset s 300 420
+exec_always --no-startup-id xset s 600 600
 exec_always --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/scripts/lock.sh
 exec_always --no-startup-id autotiling --limit 2
 

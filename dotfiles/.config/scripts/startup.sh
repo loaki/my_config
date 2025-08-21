@@ -33,12 +33,9 @@ secondary_display() {
     sleep $sleep_time
     i3-msg "exec element-desktop"
     sleep $sleep_time
-    i3-msg "focus left"
-    i3-msg "split v"
-    i3-msg "exec kitty -e spotify_player"
-    sleep $sleep_time
-    i3-msg "focus right"
     i3-msg "resize grow width 10 px or 10 ppt"
+    i3-msg "layout tabbed"
+    i3-msg "exec spotify"
 }
 
 if [ "$display" == "HDMI-1" ]; then

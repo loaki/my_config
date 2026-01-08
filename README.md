@@ -20,17 +20,16 @@
 | http | [httpie](https://github.com/httpie/cli) |
 | audio | [pulseaudio](https://doc.ubuntu-fr.org/pulseaudio) |
 | volume | [pavucontrol](https://doc.ubuntu-fr.org/pavucontrol) |
+| music player daemon | [mpd](https://www.musicpd.org/) |
+| music player client | [rmpc](https://rmpc.mierak.dev/) |
 | wallpaper | [feh](https://doc.ubuntu-fr.org/feh) |
 | sys info | [conky](https://doc.ubuntu-fr.org/conky) |
 | display rendering | [autorandr](https://github.com/phillipberndt/autorandr) |
 | json processor | [jq](https://github.com/jqlang/jq) |
 | file manager | [nnn](https://github.com/jarun/nnn) |
-| spotify tui | [spotify-player](https://github.com/aome510/spotify-player) |
-| lazy-docker | [lazy-docker](https://github.com/katopz/lazy-docker)|
 | lowfi cli | [lowfi](https://github.com/talwat/lowfi) |
 | transfer files | [croc](https://github.com/schollz/croc) |
 | hacker news cli | [circumflex](https://github.com/bensadeh/circumflex) |
-| stackoverflow cli | [aso](https://github.com/loaki/aso) |
 
 
 | themes | |

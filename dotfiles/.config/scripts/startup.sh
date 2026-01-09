@@ -35,7 +35,7 @@ secondary_display() {
     sleep $sleep_time
     i3-msg "resize grow width 10 px or 10 ppt"
     i3-msg "layout tabbed"
-    i3-msg "exec spotify"
+    i3-msg "exec deezer"
 }
 
 if [ "$display" == "HDMI-1" ]; then

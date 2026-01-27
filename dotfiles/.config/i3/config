@@ -27,8 +27,8 @@ font pango:monospace 4
 
 
 #--- GAPS -----------------------------------------------------
-gaps inner 10
-gaps outer 4
+gaps inner 0
+gaps outer 0
 smart_gaps off
 
 

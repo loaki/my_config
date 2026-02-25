@@ -17,7 +17,6 @@ exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec --no-startup-id autorandr -c
 
 exec --no-startup-id ~/.config/scripts/launch_polybar.sh
-exec --no-startup-id ~/.config/scripts/mount_google_drive.sh
 exec --no-startup-id ~/.config/scripts/startup.sh
 exec --no-startup-id feh --bg-scale ~/.config/wallpapers/cabin-3.png
 

@@ -5,8 +5,8 @@ sleep_time=5
 
 if xrandr | grep "HDMI-1 connected"; then
     display="HDMI-1"
-elif xrandr | grep "DP-3 connected"; then
-    display="DP-3"
+elif xrandr | grep "DP-1 connected"; then
+    display="DP-1"
 fi
 
 primary_display() {
@@ -41,8 +41,8 @@ secondary_display() {
 if [ "$display" == "HDMI-1" ]; then
     primary_display "eDP-1"
     secondary_display "HDMI-1"
-elif [ "$display" == "DP-3" ]; then
-    primary_display "DP-3"
+elif [ "$display" == "DP-1" ]; then
+    primary_display "DP-1"
     secondary_display "eDP-1"
 else
     primary_display "eDP-1"

@@ -29,8 +29,6 @@ secondary_display() {
     sleep $sleep_time
     i3-msg "focus output $1"
     i3-msg "workspace 9"
-    i3-msg "exec kitty"
-    sleep $sleep_time
     i3-msg "exec element-desktop"
     sleep $sleep_time
     i3-msg "resize grow width 10 px or 10 ppt"

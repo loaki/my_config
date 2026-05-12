@@ -1,6 +1,6 @@
 [user]
-	email = loaki.dev@gmail.com
-    name = Loaki
+	email = j.feuillatre@yeswehack.com
+    name = j.feuillatre
 
 [include]
 	path = ~/.config/delta/themes/catppuccin.gitconfig

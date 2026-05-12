@@ -3,12 +3,6 @@
 display=""
 sleep_time=5
 
-if xrandr | grep "HDMI-1 connected"; then
-    display="HDMI-1"
-elif xrandr | grep "DP-1 connected"; then
-    display="DP-1"
-fi
-
 primary_display() {
     sleep $sleep_time
     i3-msg "focus output $1"
@@ -32,12 +26,32 @@ secondary_display() {
     i3-msg "exec element-desktop"
 }
 
-if [ "$display" == "HDMI-1" ]; then
-    primary_display "eDP-1"
-    secondary_display "HDMI-1"
-elif [ "$display" == "DP-1" ]; then
-    primary_display "DP-1"
-    secondary_display "eDP-1"
-else
-    primary_display "eDP-1"
+get_displays() {
+    xrandr --query | grep " connected" | awk '{print $1}'
+}
+
+get_primary() {
+    get_displays | grep -E "eDP|LVDS|PANEL" | head -1
+}
+
+get_secondary() {
+    local primary=$(get_primary)
+    get_displays | grep -v "$primary" | head -1
+}
+
+primary_display="$(get_primary)"
+secondary_display="$(get_secondary)"
+
+if [ "$secondary_display" == "DP-1" ]; then
+    temp="$primary_display"
+    primary_display="$secondary_display"
+    secondary_display="$temp"
+fi
+
+if [ -n "$primary_display" ]; then
+    primary_display "$primary_display"
+fi
+
+if [ -n "$secondary_display" ]; then
+    secondary_display "$secondary_display"
 fi

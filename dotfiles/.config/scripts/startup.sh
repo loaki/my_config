@@ -46,6 +46,9 @@ if [ "$secondary_display" == "DP-1" ]; then
     temp="$primary_display"
     primary_display="$secondary_display"
     secondary_display="$temp"
+    i3-msg "exec autorandr home"
+else
+    i3-msg "exec autorandr work"
 fi
 
 if [ -n "$primary_display" ]; then

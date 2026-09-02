@@ -196,3 +196,9 @@ bindsym $mod+Control+l exec --no-startup-id ~/.config/scripts/lock.sh
 # brightness control
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -q set 5%-
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -q set +5%
+
+# Zoom: float the toolbar/notification popups, keep the meeting window tiled
+for_window [class="(?i)zoom" title="^zoom$"] floating enable, border none
+for_window [class="(?i)zoom" title="^as_toolbar$"] floating enable, border none, sticky enable
+for_window [class="(?i)zoom" title="^zoom_linux_float_video_window$"] floating enable
+for_window [class="(?i)zoom" title="^Zoom Meeting$"] floating disable

@@ -196,10 +196,3 @@ bindsym $mod+Control+l exec --no-startup-id ~/.config/scripts/lock.sh
 # brightness control
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -q set 5%-
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -q set +5%
-
-# Zoom: float the annotation toolbar and pop-out video, keep meeting/workplace windows tiled
-for_window [class="(?i)zoom" title="^annotate_toolbar$"] floating enable, border none, sticky enable
-for_window [class="(?i)zoom" title="^zoom_linux_float_video_window$"] floating enable
-for_window [class="(?i)zoom" title="^Meeting$"] floating disable
-for_window [class="(?i)zoom" title="^Zoom Workplace$"] floating disable
-for_window [class="(?i)zoom" title="^Zoom Workplace - Licensed account$"] floating disable

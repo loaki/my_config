@@ -24,6 +24,9 @@ fi
 if command -v lsd > /dev/null; then
   alias ls="lsd --size short --date relative"
 fi
+if command -v todo-txt > /dev/null; then
+  alias t="todo-txt"
+fi
 
 # load modules
 zmodload zsh/complist

@@ -15,8 +15,9 @@ primary_display() {
     i3-msg "move workspace to output $1"
     i3-msg "exec kitty"
     sleep $sleep_time
-    i3-msg "workspace 8"
+    i3-msg "workspace 9"
     i3-msg "exec keepassxc"
+    i3-msg "layout tabbed"
 }
 
 secondary_display() {

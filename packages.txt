@@ -31,3 +31,4 @@ numlockx
 autorandr
 mpd
 rmpc
+todotxt-cli

@@ -1,0 +1,10 @@
+# Use ./todo.txt if it exists in the current directory, else ~/todo/todo.txt
+if [ -f "$PWD/todo.txt" ]; then
+  export TODO_DIR="$PWD"
+else
+  export TODO_DIR="$HOME/todo"
+fi
+
+export TODO_FILE="$TODO_DIR/todo.txt"
+export DONE_FILE="$TODO_DIR/done.txt"
+export REPORT_FILE="$TODO_DIR/report.txt"

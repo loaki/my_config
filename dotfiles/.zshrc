@@ -27,6 +27,9 @@ fi
 if command -v todo-txt > /dev/null; then
   alias t="todo-txt"
 fi
+if command -v joplin > /dev/null; then
+  alias n="joplin sync && joplin"
+fi
 
 # load modules
 zmodload zsh/complist

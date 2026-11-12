@@ -53,15 +53,8 @@
 
 | neovim | |
 | --- | --- |
-| plugins | [lazy.nvim](https://github.com/folke/lazy.nvim) |
+| distribution | [LazyVim](https://www.lazyvim.org/) |
 | theme | [catppuccin](https://github.com/catppuccin/nvim) |
-| syntax | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) |
-| lsp | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) + [mason](https://github.com/mason-org/mason.nvim) |
-| completion | [blink.cmp](https://github.com/saghen/blink.cmp) |
-| fuzzy finder | [telescope](https://github.com/nvim-telescope/telescope.nvim) |
-| file explorer | [oil](https://github.com/stevearc/oil.nvim) |
-| statusline | [lualine](https://github.com/nvim-lualine/lualine.nvim) |
-| git | [gitsigns](https://github.com/lewis6991/gitsigns.nvim) |
 
 
 | i3 | |

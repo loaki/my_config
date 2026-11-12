@@ -9,7 +9,6 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR="nvim"
 
 # aliases
-alias vim="nvim"
 alias python="python3"
 alias dc="docker compose"
 alias tetris="tetriscurses"

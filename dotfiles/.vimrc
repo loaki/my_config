@@ -35,9 +35,6 @@ set laststatus=2
 " .pl for prolog, not perl
 au BufRead,BufNewFile *.pl set filetype=prolog
 
-" jj brings you the normal mode
-:imap jj <Esc>
-
 " Indentation
 set tabstop=4
 set shiftwidth=4

@@ -6,7 +6,10 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+export EDITOR="nvim"
+
 # aliases
+alias vim="nvim"
 alias python="python3"
 alias dc="docker compose"
 alias tetris="tetriscurses"
@@ -62,5 +65,4 @@ export FZF_DEFAULT_OPTS=" \
 --color=selected-bg:#494d64 \
 --color=border:#363a4f,label:#cad3f5"
 
-# Created by `pipx` on 2025-05-23 13:18:49
-export PATH="$PATH:/home/loaki/.local/bin"
+export PATH="$HOME/.local/bin:$PATH"

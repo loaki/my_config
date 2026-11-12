@@ -25,10 +25,10 @@ feh
 conky-all
 lsd
 git-delta
-nnn
 zenity
 numlockx
 autorandr
-mpd
-rmpc
 todotxt-cli
+ripgrep
+fd-find
+unzip

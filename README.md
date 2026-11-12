@@ -11,25 +11,18 @@
 | dmenu | [rofi](https://github.com/davatorium/rofi) |
 | screenshot | [flameshot](https://github.com/flameshot-org/flameshot) |
 | cloud | [rclone](https://rclone.org) |
-| note | [nb](https://github.com/xwmx/nb) |
 | bluetooth | [blueman](https://github.com/blueman-project/blueman) |
 | passwords | [keepassxc](https://keepassxc.org) |
 | browser | [firefox](https://www.mozilla.org/en-US/firefox/new/) |
-| ide | [vsc](https://code.visualstudio.com/) |
+| ide | [neovim](https://neovim.io/) |
 | editor | [vim](https://www.vim.org/) |
 | http | [httpie](https://github.com/httpie/cli) |
 | audio | [pulseaudio](https://doc.ubuntu-fr.org/pulseaudio) |
 | volume | [pavucontrol](https://doc.ubuntu-fr.org/pavucontrol) |
-| music player daemon | [mpd](https://www.musicpd.org/) |
-| music player client | [rmpc](https://rmpc.mierak.dev/) |
 | wallpaper | [feh](https://doc.ubuntu-fr.org/feh) |
 | sys info | [conky](https://doc.ubuntu-fr.org/conky) |
 | display rendering | [autorandr](https://github.com/phillipberndt/autorandr) |
 | json processor | [jq](https://github.com/jqlang/jq) |
-| file manager | [nnn](https://github.com/jarun/nnn) |
-| lowfi cli | [lowfi](https://github.com/talwat/lowfi) |
-| transfer files | [croc](https://github.com/schollz/croc) |
-| hacker news cli | [circumflex](https://github.com/bensadeh/circumflex) |
 
 
 | themes | |
@@ -56,6 +49,19 @@
 | kitty | |
 | --- | --- |
 | grab | [kitty_grab](https://github.com/yurikhan/kitty_grab) |
+
+
+| neovim | |
+| --- | --- |
+| plugins | [lazy.nvim](https://github.com/folke/lazy.nvim) |
+| theme | [catppuccin](https://github.com/catppuccin/nvim) |
+| syntax | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) |
+| lsp | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) + [mason](https://github.com/mason-org/mason.nvim) |
+| completion | [blink.cmp](https://github.com/saghen/blink.cmp) |
+| fuzzy finder | [telescope](https://github.com/nvim-telescope/telescope.nvim) |
+| file explorer | [oil](https://github.com/stevearc/oil.nvim) |
+| statusline | [lualine](https://github.com/nvim-lualine/lualine.nvim) |
+| git | [gitsigns](https://github.com/lewis6991/gitsigns.nvim) |
 
 
 | i3 | |

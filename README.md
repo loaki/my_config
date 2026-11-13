@@ -17,6 +17,7 @@
 | ide | [neovim](https://neovim.io/) |
 | editor | [vim](https://www.vim.org/) |
 | http | [httpie](https://github.com/httpie/cli) |
+| git ui | [lazygit](https://github.com/jesseduffield/lazygit) |
 | audio | [pulseaudio](https://doc.ubuntu-fr.org/pulseaudio) |
 | volume | [pavucontrol](https://doc.ubuntu-fr.org/pavucontrol) |
 | wallpaper | [feh](https://doc.ubuntu-fr.org/feh) |

@@ -6,7 +6,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-export EDITOR="nvim"
+export EDITOR="vim"
 
 # aliases
 alias python="python3"

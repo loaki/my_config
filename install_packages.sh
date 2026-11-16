@@ -36,10 +36,6 @@ if ! command -v npm > /dev/null; then
 fi
 npm install -g --prefix "$HOME/.local" tree-sitter-cli
 
-# lazygit (not in apt)
-LAZYGIT_VERSION=$(curl -s https://api.github.com/repos/jesseduffield/lazygit/releases/latest | grep -Po '"tag_name": *"v\K[^"]*')
-curl -fsSL "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_linux_x86_64.tar.gz" | tar -xz -C "$HOME/.local/bin" lazygit
-
 # neovim (apt version too old)
 mkdir -p "$HOME/.local/opt" "$HOME/.local/bin"
 rm -rf "$HOME/.local/opt/nvim"

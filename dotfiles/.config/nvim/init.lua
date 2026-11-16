@@ -142,7 +142,7 @@ miniclue.setup({
 -- Other plugins ---------------------------------------------------------------
 require("git-conflict").setup()
 
--- Git hunks (same signs and keymaps as LazyVim)
+-- Git hunks: signs in the gutter, ]h [h to navigate, <leader>gh* actions
 require("gitsigns").setup({
   signs = {
     add = { text = "▎" }, change = { text = "▎" }, delete = { text = "" },

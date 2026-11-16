@@ -10,7 +10,6 @@
 | shell | [zsh](https://ohmyz.sh/) |
 | dmenu | [rofi](https://github.com/davatorium/rofi) |
 | screenshot | [flameshot](https://github.com/flameshot-org/flameshot) |
-| cloud | [rclone](https://rclone.org) |
 | bluetooth | [blueman](https://github.com/blueman-project/blueman) |
 | passwords | [keepassxc](https://keepassxc.org) |
 | browser | [firefox](https://www.mozilla.org/en-US/firefox/new/) |
@@ -53,8 +52,15 @@
 
 | neovim | |
 | --- | --- |
-| distribution | [LazyVim](https://www.lazyvim.org/) |
+| plugin manager | built-in `vim.pack` (neovim 0.12+) |
 | theme | [catppuccin](https://github.com/catppuccin/nvim) |
+| ui, editing, explorer, completion | [mini.nvim](https://github.com/nvim-mini/mini.nvim) |
+| fuzzy finder | [fzf-lua](https://github.com/ibhagwan/fzf-lua) |
+| syntax | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) |
+| lsp configs | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) |
+| lsp installer | [mason.nvim](https://github.com/mason-org/mason.nvim) |
+| git signs | [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) |
+| git conflicts | [git-conflict.nvim](https://github.com/akinsho/git-conflict.nvim) |
 
 
 | i3 | |

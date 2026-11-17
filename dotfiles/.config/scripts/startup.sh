@@ -13,7 +13,7 @@ primary_display() {
     sleep $sleep_time
     i3-msg "workspace 2"
     i3-msg "move workspace to output $1"
-    i3-msg "exec kitty"
+    i3-msg "exec ~/.local/bin/kitty"
     sleep $sleep_time
     i3-msg "workspace 9"
     i3-msg "exec keepassxc"

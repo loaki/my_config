@@ -69,7 +69,7 @@ tiling_drag modifier titlebar
 
 #--- BINDINGS ------------------------------------------------
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec ~/.local/bin/kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill

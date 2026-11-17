@@ -32,6 +32,9 @@ fi
 if command -v joplin > /dev/null; then
   alias n="joplin sync && joplin"
 fi
+if command -v nvim > /dev/null; then
+  alias v="nvim"
+fi
 
 # load modules
 zmodload zsh/complist

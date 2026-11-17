@@ -47,7 +47,7 @@
 
 | kitty | |
 | --- | --- |
-| grab | [kitty_grab](https://github.com/yurikhan/kitty_grab) |
+| scrollback in nvim | [kitty-scrollback.nvim](https://github.com/mikesmithgh/kitty-scrollback.nvim) |
 
 
 | neovim | |

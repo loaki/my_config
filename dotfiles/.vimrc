@@ -56,6 +56,10 @@ set clipboard=unnamedplus
 " jj to exit insert mode
 inoremap jj <Esc>
 
+" B / E to start / end of line
+noremap B ^
+noremap E $
+
 " vim hardcodes background color erase even if the terminfo file does
 " not contain bce. This causes incorrect background rendering when
 " using a color theme with a background color in terminals such as

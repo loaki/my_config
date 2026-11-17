@@ -56,7 +56,11 @@ vim.pack.add({
   { src = "https://github.com/akinsho/git-conflict.nvim", version = vim.version.range("*") },
   "https://github.com/lewis6991/gitsigns.nvim",
   "https://github.com/ibhagwan/fzf-lua",
+  { src = "https://github.com/mikesmithgh/kitty-scrollback.nvim", version = vim.version.range("*") },
 })
+
+-- Kitty scrollback in nvim (launched from kitty with ctrl+shift+/)
+require("kitty-scrollback").setup()
 
 -- Colorscheme
 require("catppuccin").setup({ flavour = "macchiato" })
@@ -208,6 +212,8 @@ local map = vim.keymap.set
 -- General
 map("n", "<Esc>", "<cmd>nohlsearch<cr><Esc>")
 map("i", "jj", "<Esc>", { desc = "Exit insert mode" })
+map({ "n", "x", "o" }, "B", "^", { desc = "Start of line" })
+map({ "n", "x", "o" }, "E", "$", { desc = "End of line" })
 map({ "n", "i", "x" }, "<C-s>", "<cmd>write<cr><Esc>", { desc = "Save" })
 map("n", "<C-h>", "<C-w>h")
 map("n", "<C-j>", "<C-w>j")

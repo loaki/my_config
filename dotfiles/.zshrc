@@ -1,3 +1,6 @@
+# Must come first: the `command -v` checks below (e.g. nvim -> alias v) need it
+export PATH="$HOME/.local/bin:$PATH"
+
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="catppuccin"
@@ -66,5 +69,3 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#b7bdf8,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796 \
 --color=selected-bg:#494d64 \
 --color=border:#363a4f,label:#cad3f5"
-
-export PATH="$HOME/.local/bin:$PATH"

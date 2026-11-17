@@ -97,6 +97,8 @@ require("mini.files").setup({
 require("fzf-lua").setup({
   winopts = { height = 0.9, width = 0.9, preview = { layout = "flex", horizontal = "right:55%" } },
   lsp = { includeDeclaration = false, ignore_current_line = true },
+  -- fzf-lua ignores RIPGREP_CONFIG_PATH unless it is passed explicitly
+  grep = { RIPGREP_CONFIG_PATH = vim.env.RIPGREP_CONFIG_PATH },
 })
 require("fzf-lua").register_ui_select()
 

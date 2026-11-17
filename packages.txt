@@ -1,7 +1,6 @@
 curl
 vim
 i3
-kitty
 zsh
 rofi
 bat

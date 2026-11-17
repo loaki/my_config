@@ -12,7 +12,7 @@ vim.g.loaded_netrwPlugin = 1
 -- Options ---------------------------------------------------------------------
 local o = vim.o
 o.number = true
-o.relativenumber = false
+o.relativenumber = true
 o.mouse = "a"
 o.clipboard = "unnamedplus"
 o.ignorecase = true

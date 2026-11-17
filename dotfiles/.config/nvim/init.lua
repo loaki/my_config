@@ -207,6 +207,7 @@ local map = vim.keymap.set
 
 -- General
 map("n", "<Esc>", "<cmd>nohlsearch<cr><Esc>")
+map("i", "jj", "<Esc>", { desc = "Exit insert mode" })
 map({ "n", "i", "x" }, "<C-s>", "<cmd>write<cr><Esc>", { desc = "Save" })
 map("n", "<C-h>", "<C-w>h")
 map("n", "<C-j>", "<C-w>j")

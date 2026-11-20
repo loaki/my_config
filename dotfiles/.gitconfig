@@ -1,6 +1,6 @@
 [user]
-	email = j.feuillatre@yeswehack.com
-    name = j.feuillatre
+	name = loaki
+	email = loaki@ik.me
 
 [include]
 	path = ~/.config/delta/themes/catppuccin.gitconfig
@@ -29,3 +29,7 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+
+# work identity
+[includeIf "gitdir:~/Documents/dev/"]
+	path = ~/.gitconfig-work

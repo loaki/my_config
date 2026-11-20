@@ -198,12 +198,12 @@ vim.lsp.config("lua_ls", {
   settings = { Lua = { runtime = { version = "LuaJIT" }, workspace = { library = { vim.env.VIMRUNTIME } } } },
 })
 vim.lsp.enable({
-  "lua_ls", "pyright", "ruff", "jsonls", "dockerls", "docker_compose_language_service", "taplo", "marksman",
-  "intelephense", -- PHP
+  "lua_ls", "pyright", "ruff", "jsonls", "dockerls", "docker_compose_language_service", "taplo", "marksman", "intelephense", "rust_analyzer",
 })
 
 vim.diagnostic.config({
-  virtual_text = true,
+  virtual_text = false,
+  virtual_lines = { current_line = true },
   severity_sort = true,
   float = { source = true },
 })
